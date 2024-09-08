@@ -6,7 +6,7 @@ const Body = () => {
   return (
     <>
       <div className="max-w-[100%] mx-auto">
-        <div className="w-[90%] grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-4 mx-auto gap-5">
+        <div className="w-[90%] grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-4 mx-auto gap-7">
           <div className="xl:col-span-3 lg:col-span-2 ">
             <Videosection></Videosection>
             <Coursetab></Coursetab>
