@@ -1,247 +1,268 @@
-import React from "react";
-import {
-  Accordion,
-  AccordionHeader,
-  AccordionBody,
-} from "@material-tailwind/react";
-import { Lock, Minus, Plus } from "lucide-react";
-
-function Icon({ id, open }) {
+import { ChevronRight, LockKeyhole, Youtube } from "lucide-react";
+import { useState } from "react";
+const Curriculam = () => {
+  const [accordion, setAccordion] = useState(false);
+  const [basic, setBasic] = useState(false);
+  const [basic1, setBasic1] = useState(false);
+  const [basic2, setBasic2] = useState(false);
+  const [basic3, setBasic3] = useState(false);
   return (
     <>
-      <Plus
-        className={`${
-          id === open ? "hidden" : ""
-        } h-5 w-5 transition-transform`}
-        strokeWidth={5}
-      ></Plus>
-      <Minus
-        className={`${
-          id === open ? "" : "hidden"
-        } h-5 w-5 transition-transform`}
-        strokeWidth={5}
-      ></Minus>
-    </>
-  );
-}
+      <div>
+        <div className="px-6 py-8 w-[100%]">
+          <h1 className=" font-semibold text-[22px] font-[Pro] text-[#082a5e]">
+            Course Curriculum
+          </h1>
+          <div className=" pt-5 group">
+            <button
+              onClick={() => setAccordion(!accordion)}
+              className={`flex items-center md:justify-between w-full p-3 rounded-md border-2  ${
+                accordion
+                  ? "rounded-bl-none rounded-br-none text-[#1176F0] bg-[#e3e5eb] transition ease-in-out"
+                  : "rounded-md"
+              }`}
+            >
+              <span className="line-clamp-1 font-medium font-[Pro] text-[18px] transition-colors ease-in-out group-hover:text-[#1176F0] text-start ">
+                Intoductions & Inspiration
+              </span>
 
-export function Curriculam() {
-  const [open, setOpen] = React.useState(0);
+              <span>
+                <ChevronRight
+                  className={`${
+                    accordion
+                      ? "-rotate-90 transition stroke-[#1176F0]"
+                      : " rotate-0 transition stroke-[#1176F0]"
+                  }`}
+                />
+              </span>
+            </button>
+            <div
+              className={`grid overflow-hidden transition-all  rounded-b-md duration-300 ease-in-out  text-sm border-2 ${
+                accordion
+                  ? "grid-rows-[1fr] opacity-100 ease-in-out delay-700 transition-all"
+                  : "grid-rows-[0fr] opacity-0 hidden transition"
+              }`}
+            >
+              <div className="p-3 flex items-center gap-2 justify-between hover:bg-[#e3e5eb]">
+                <div className=" flex items-center gap-2">
+                  <div>
+                    <Youtube color="#475569" size={16}></Youtube>
+                  </div>
+                  <p className=" font-medium text-[16px] hover:bg-[#ebecef] font-[Pro] text-slate-800 line-clamp-1">
+                    What is UIUX ?{" "}
+                  </p>
+                </div>
+                
+              </div>
 
-  const handleOpen = (value) => setOpen(open === value ? 0 : value);
+              <div className="p-3 flex items-center justify-between hover:bg-[#e3e5eb]">
+                <div className=" flex items-center gap-2 justify-center">
+                <div>
+                    <Youtube color="#475569" size={16}></Youtube>
+                  </div>
+                  <p className=" font-medium text-[16px] hover:bg-[#ebecef] font-[Pro] text-slate-800 line-clamp-1">
+                    Where it is Used?
+                  </p>
+                </div>
+                
+              </div>
+              <div className="p-3 flex items-center justify-between hover:bg-[#e3e5eb]">
+                <div className=" flex items-center gap-2">
+                <div>
+                    <Youtube color="#475569" size={16}></Youtube>
+                  </div>
+                  <p className=" font-medium text-[16px] hover:bg-[#ebecef] font-[Pro] text-slate-800">
+                    Demands
+                  </p>
+                </div>
+                
+              </div>
 
-  return (
-    <>
-      <div className=" py-10 px-10 shadow-[0px_0px_14px_0px_#00000014] flex flex-col gap-5 rounded-lg">
-        <div>
-          <p className="font-[Poppins] text-[24px] md:text-[30px] xl:text-[1.75rem] font-semibold text-[#161439]">
-            Course Curriculam
-          </p>
+              <div className="p-3 flex items-center justify-between hover:bg-[#e3e5eb]">
+                <div className=" flex items-center gap-2">
+                <div>
+                    <Youtube color="#475569" size={16}></Youtube>
+                  </div>
+                  <p className=" font-medium text-[16px] hover:bg-[#ebecef] font-[Pro] text-slate-800 line-clamp-1">
+                    Future Plans by learning FIGMA
+                  </p>
+                </div>
+                
+              </div>
+              <div className="p-3 flex items-center justify-between hover:bg-[#e3e5eb]">
+                <div className=" flex items-center gap-2">
+                <div>
+                    <Youtube color="#475569" size={16}></Youtube>
+                  </div>
+                  <p className=" font-medium text-[16px] hover:bg-[#ebecef] font-[Pro] text-slate-800 line-clamp-1">
+                    Syllabus Detailed Explanations
+                  </p>
+                </div>
+                
+              </div>
+              <div className="p-3 flex items-center justify-between hover:bg-[#e3e5eb]">
+                <div className=" flex items-center gap-2">
+                <div>
+                    <Youtube color="#475569" size={16}></Youtube>
+                  </div>
+                  <p className=" font-medium text-[16px] hover:bg-[#ebecef] font-[Pro] text-slate-800 line-clamp-1">
+                    Tools Setup i.e FIGMA
+                  </p>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+          <br />
+          <div className=" pt-0 group">
+            <button
+              onClick={() => setBasic(!basic)}
+              className={`flex items-center justify-between w-full  p-3 rounded-md border-2  ${
+                basic
+                  ? "rounded-bl-none rounded-br-none text-[#1176F0] bg-[#e3e5eb] "
+                  : "rounded-md"
+              }`}
+            >
+              <span className="line-clamp-1 font-medium font-[Pro] text-[18px] text-center transition-colors ease-in-out group-hover:text-[#1176F0]">
+                Sketching
+              </span>
+            </button>
+          </div>
+          <br />
+          <div className=" pt-0 group">
+            <button
+              onClick={() => setBasic1(!basic1)}
+              className={`flex items-center justify-between w-full  p-3 rounded-md border-2  ${
+                basic1
+                  ? "rounded-bl-none rounded-br-none text-[#1176F0] bg-[#e3e5eb] "
+                  : "rounded-md"
+              }`}
+            >
+              <span className=" font-medium font-[Pro] text-[18px] transition-colors ease-in-out group-hover:text-[#1176F0] line-clamp-1 text-start">
+                Project : Sketching a EDTECH APP & WEBSITE
+              </span>
+            </button>
+          </div>
+          <br />
+          <div className=" pt-0 group">
+            <button
+              onClick={() => setBasic2(!basic2)}
+              className={`flex items-center justify-between w-full  p-3 rounded-md border-2  ${
+                basic2
+                  ? "rounded-bl-none rounded-br-none text-[#1176F0] bg-[#e3e5eb] "
+                  : "rounded-md"
+              }`}
+            >
+              <span className=" font-medium font-[Pro] text-[18px] transition-colors ease-in-out group-hover:text-[#1176F0]">
+                Figma Basics
+              </span>
+            </button>
+          </div>
+          <br />
+          <div className=" pt-0 group">
+            <button
+              onClick={() => setBasic3(!basic3)}
+              className={`flex items-center justify-between w-full  p-3 rounded-md border-2  ${
+                basic3
+                  ? "rounded-bl-none rounded-br-none text-[#1176F0] bg-[#e3e5eb] "
+                  : "rounded-md"
+              }`}
+            >
+              <span className=" font-medium font-[Pro] text-[18px] transition-colors ease-in-out group-hover:text-[#1176F0]">
+                Figma Tool
+              </span>
+
+              <span>
+                <ChevronRight
+                  className={`${
+                    basic3
+                      ? "-rotate-90 transition stroke-[#1176F0]"
+                      : " rotate-0 transition stroke-[#1176F0]"
+                  }`}
+                />
+              </span>
+            </button>
+            <div
+              className={`grid overflow-hidden transition-all  border-2 rounded-b-md duration-300 ease-in-out  text-sm ${
+                basic3
+                  ? "grid-rows-[1fr] opacity-100"
+                  : "grid-rows-[0fr] opacity-0 hidden"
+              }`}
+            >
+              <div className="p-5 flex items-center justify-between hover:bg-[#e3e5eb]">
+                <div className=" flex items-center gap-2">
+                <div>
+                    <Youtube color="#475569" size={16}></Youtube>
+                  </div>
+                  <p className=" font-medium text-[16px] hover:bg-[#ebecef] font-[Pro] text-slate-800 line-clamp-1">
+                    Figma UI — Structure
+                  </p>
+                </div>
+                
+              </div>
+
+              <div className="p-5 flex items-center justify-between hover:bg-[#e3e5eb]">
+                <div className=" flex items-center gap-2">
+                <div>
+                    <Youtube color="#475569" size={16}></Youtube>
+                  </div>
+                  <p className=" font-medium text-[16px] hover:bg-[#ebecef] font-[Pro] text-slate-800 line-clamp-1">
+                    Figma UI — Files
+                  </p>
+                </div>
+                
+              </div>
+
+              <div className="p-5 flex items-center justify-between hover:bg-[#e3e5eb]">
+                <div className=" flex items-center gap-2">
+                <div>
+                    <Youtube color="#475569" size={16}></Youtube>
+                  </div>
+                  <p className=" font-medium text-[16px] hover:bg-[#ebecef] font-[Pro] text-slate-800 line-clamp-1">
+                    Figma UI — Toolbar
+                  </p>
+                </div>
+                
+              </div>
+              <div className="p-5 flex items-center justify-between hover:bg-[#e3e5eb]">
+                <div className=" flex items-center gap-2">
+                <div>
+                    <Youtube color="#475569" size={16}></Youtube>
+                  </div>
+                  <p className=" font-medium text-[16px] hover:bg-[#ebecef] font-[Pro] text-slate-800 line-clamp-1">
+                    Figma UI — Left Sidebar
+                  </p>
+                </div>
+                
+              </div>
+              <div className="p-5 flex items-center justify-between hover:bg-[#e3e5eb]">
+                <div className=" flex items-center gap-2">
+                <div>
+                    <Youtube color="#475569" size={16}></Youtube>
+                  </div>
+                  <p className=" font-medium text-[16px] hover:bg-[#ebecef] font-[Pro] text-slate-800 line-clamp-1">
+                    Figma UI — Right Sidebar
+                  </p>
+                </div>
+                
+              </div>
+              <div className="p-5 flex items-center justify-between hover:bg-[#e3e5eb]">
+                <div className=" flex items-center gap-2">
+                <div>
+                    <Youtube color="#475569" size={16}></Youtube>
+                  </div>
+                  <p className=" font-medium text-[16px] hover:bg-[#ebecef] font-[Pro] text-slate-800 line-clamp-1">
+                    Frames
+                  </p>
+                </div>
+                
+              </div>
+            </div>
+          </div>
         </div>
-        <div>
-          <p className="font-[Inter] text-base lg:text-[18px] text-[#6d6c80] leading-[1.75]">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis
-            laudantium recusandae numquam quae. Cupiditate, iusto. Voluptates
-            eaque praesentium impedit, illo neque nemo fuga quae sunt eveniet
-            optio, doloremque libero facere. Lorem ipsum dolor sit amet,
-            consectetur adipisicing elit. Pariatur, atque optio ducimus sequi
-            voluptate laudantium non nobis facilis aut rerum omnis ut? Vitae
-            molestias delectus quis ratione doloribus debitis aliquam.
-          </p>
-        </div>
-        <Accordion open={open === 1} icon={<Icon id={1} open={open} />}>
-          <AccordionHeader
-            onClick={() => handleOpen(1)}
-            className="font-[Inter] text-[#161439] font-medium text-[20px] lg:text-[24px] "
-          >
-            Introduction
-          </AccordionHeader>
-          <AccordionBody>
-            <div className="flex flex-col gap-1">
-              <div className="bg-[#F8F8FF] px-5 py-5 group">
-                <div className="w-[90%] mx-auto flex justify-between  ">
-                  <div>
-                    <p className="leading-[1.14] font-[Poppins] text-[18px] font-medium text-[#1c1a4a] group-hover:text-[#5751e1]">
-                      Course Installation
-                    </p>
-                  </div>
-                  <div>
-                    <p className="text-[18px] font-[Poppins] text-[#1c1a4a] group-hover:text-[#5751e1] font-medium">
-                      03:30
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="bg-[#F8F8FF] px-5 py-5 group">
-                <div className="w-[90%] mx-auto flex justify-between  ">
-                  <div>
-                    <p className="leading-[1.14] font-[Poppins] text-[18px] font-medium text-[#1c1a4a] group-hover:text-[#5751e1]">
-                      Create a Simple React App
-                    </p>
-                  </div>
-                  <div className="flex gap-2">
-                    <div>
-                      <p className="text-[18px] font-[Poppins] text-[#1c1a4a] group-hover:text-[#5751e1] font-medium">
-                        03:30
-                      </p>
-                    </div>
-                    <div>
-                      <Lock></Lock>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="bg-[#F8F8FF] px-5 py-5 group">
-                <div className="w-[90%] mx-auto flex justify-between  ">
-                  <div>
-                    <p className="leading-[1.14] font-[Poppins] text-[18px] font-medium text-[#1c1a4a] group-hover:text-[#5751e1]">
-                      React for Reat of us
-                    </p>
-                  </div>
-                  <div className="flex gap-2">
-                    <div>
-                      <p className="text-[18px] font-[Poppins] text-[#1c1a4a] group-hover:text-[#5751e1] font-medium">
-                        03:30
-                      </p>
-                    </div>
-                    <div>
-                      <Lock></Lock>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </AccordionBody>
-        </Accordion>
-        <Accordion open={open === 2} icon={<Icon id={2} open={open} />}>
-          <AccordionHeader
-            onClick={() => handleOpen(2)}
-            className="font-[Inter] text-[#161439] font-medium text-[20px] lg:text-[24px] "
-          >
-            Capacitance and Inductance
-          </AccordionHeader>
-          <AccordionBody>
-            <div className="flex flex-col gap-1">
-              <div className="bg-[#F8F8FF] px-5 py-5 group">
-                <div className="w-[90%] mx-auto flex justify-between  ">
-                  <div>
-                    <p className="leading-[1.14] font-[Poppins] text-[18px] font-medium text-[#1c1a4a] group-hover:text-[#5751e1]">
-                      Course Installation
-                    </p>
-                  </div>
-                  <div>
-                    <p className="text-[18px] font-[Poppins] text-[#1c1a4a] group-hover:text-[#5751e1] font-medium">
-                      03:30
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="bg-[#F8F8FF] px-5 py-5 group">
-                <div className="w-[90%] mx-auto flex justify-between  ">
-                  <div>
-                    <p className="leading-[1.14] font-[Poppins] text-[18px] font-medium text-[#1c1a4a] group-hover:text-[#5751e1]">
-                      Create a Simple React App
-                    </p>
-                  </div>
-                  <div className="flex gap-2">
-                    <div>
-                      <p className="text-[18px] font-[Poppins] text-[#1c1a4a] group-hover:text-[#5751e1] font-medium">
-                        03:30
-                      </p>
-                    </div>
-                    <div>
-                      <Lock></Lock>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="bg-[#F8F8FF] px-5 py-5 group">
-                <div className="w-[90%] mx-auto flex justify-between  ">
-                  <div>
-                    <p className="leading-[1.14] font-[Poppins] text-[18px] font-medium text-[#1c1a4a] group-hover:text-[#5751e1]">
-                      React for Reat of us
-                    </p>
-                  </div>
-                  <div className="flex gap-2">
-                    <div>
-                      <p className="text-[18px] font-[Poppins] text-[#1c1a4a] group-hover:text-[#5751e1] font-medium">
-                        03:30
-                      </p>
-                    </div>
-                    <div>
-                      <Lock></Lock>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </AccordionBody>
-        </Accordion>
-        <Accordion open={open === 3} icon={<Icon id={3} open={open} />}>
-          <AccordionHeader
-            onClick={() => handleOpen(3)}
-            className="font-[Inter] text-[#161439] font-medium text-[20px] lg:text-[24px] "
-          >
-            Final Audit
-          </AccordionHeader>
-          <AccordionBody>
-            <div className="flex flex-col gap-1">
-              <div className="bg-[#F8F8FF] px-5 py-5 group">
-                <div className="w-[90%] mx-auto flex justify-between  ">
-                  <div>
-                    <p className="leading-[1.14] font-[Poppins] text-[18px] font-medium text-[#1c1a4a] group-hover:text-[#5751e1]">
-                      Course Installation
-                    </p>
-                  </div>
-                  <div>
-                    <p className="text-[18px] font-[Poppins] text-[#1c1a4a] group-hover:text-[#5751e1] font-medium">
-                      03:30
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="bg-[#F8F8FF] px-5 py-5 group">
-                <div className="w-[90%] mx-auto flex justify-between  ">
-                  <div>
-                    <p className="leading-[1.14] font-[Poppins] text-[18px] font-medium text-[#1c1a4a] group-hover:text-[#5751e1]">
-                      Create a Simple React App
-                    </p>
-                  </div>
-                  <div className="flex gap-2">
-                    <div>
-                      <p className="text-[18px] font-[Poppins] text-[#1c1a4a] group-hover:text-[#5751e1] font-medium">
-                        03:30
-                      </p>
-                    </div>
-                    <div>
-                      <Lock></Lock>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="bg-[#F8F8FF] px-5 py-5 group">
-                <div className="w-[90%] mx-auto flex justify-between  ">
-                  <div>
-                    <p className="leading-[1.14] font-[Poppins] text-[18px] font-medium text-[#1c1a4a] group-hover:text-[#5751e1]">
-                      React for Reat of us
-                    </p>
-                  </div>
-                  <div className="flex gap-2">
-                    <div>
-                      <p className="text-[18px] font-[Poppins] text-[#1c1a4a] group-hover:text-[#5751e1] font-medium">
-                        03:30
-                      </p>
-                    </div>
-                    <div>
-                      <Lock></Lock>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </AccordionBody>
-        </Accordion>
       </div>
     </>
   );
-}
+};
+
+export default Curriculam;

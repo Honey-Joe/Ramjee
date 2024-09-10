@@ -11,15 +11,15 @@ const Instructor = () => {
           </div>
           <div className="col-span-2 flex flex-col gap-5">
             <div>
-              <p className="font-[Poppins] text-[#161439] font-semibold text-[20px] md:text-[26px] xl:text-[30px]">Mark Jukarberg</p>
+              <p className="font-[Pro] text-[#161439] font-semibold text-[20px] md:text-[26px] xl:text-[30px]">Mark Jukarberg</p>
             </div>
             <div>
-              <p className="font-[Poppins] text-[#5751e1] text-base">UX Design Lead</p>
+              <p className="font-[Pro] text-[#5751e1] text-base">UX Design Lead</p>
             </div>
             <div className="flex items-center gap-1">
               <Star color="#F8BC24" fill="#F8BC24"></Star>
               <div>
-                <p className="font-[Poppins] text-[#7f7e97] text-[14px]">
+                <p className="font-[Pro] text-[#7f7e97] text-[14px]">
                   (4.5 reviews)
                 </p>
               </div>

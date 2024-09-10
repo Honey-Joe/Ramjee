@@ -8,17 +8,17 @@ const Header = () => {
         <div className="w-[90%] mx-auto py-20 grid grid-cols-1 overflow-y-hidden">
           <div className="flex gap-2 relative flex-wrap justify-start">
             <div>
-              <button className="flex gap-1 items-center font-[Inter] text-[#1c1a4a] focus:text-[#5751e1] text-base">
+              <button className="flex gap-1 items-center font-[Pro] text-[#1c1a4a] focus:text-[#5751e1] text-base">
                 Home <ChevronRight color="#7f7e97"></ChevronRight>
               </button>
             </div>
             <div>
-              <button className="flex gap-1 items-center font-[Inter] text-[#1c1a4a] focus:text-[#5751e1]">
+              <button className="flex gap-1 items-center font-[Pro] text-[#1c1a4a] focus:text-[#5751e1]">
                 Courses <ChevronRight color="#7f7e97"></ChevronRight>
               </button>
             </div>
             <div>
-              <button className="flex gap-1 items-center font-[Inter] text-[#5751e1] justify-start">
+              <button className="flex gap-1 items-center font-[Pro] text-[#5751e1] justify-start">
               Resolving Conflicts Between Designers And Engineers
               </button>
             </div>

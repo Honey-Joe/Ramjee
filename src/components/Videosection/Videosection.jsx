@@ -19,18 +19,18 @@ const Videosection = () => {
         <div className="flex flex-col gap-3">
           <div className="flex gap-3">
             <div>
-              <button className="font-[Poppins] font-medium text-[#161439] py-1 px-3 rounded-full bg-[#EFEFF2] hover:bg-[#5751E1] text-[14px] hover:text-white">Development</button>
+              <button className="font-[Pro] font-medium text-[#161439] py-1 px-3 rounded-full bg-[#EFEFF2] hover:bg-[#5751E1] text-[14px] hover:text-white">Development</button>
             </div>
             <div className="flex items-center gap-1">
               <Star color="#F8BC24" fill="#F8BC24"></Star>
               <div>
 
-              <p className="font-[Poppins] text-[#7f7e97] text-[14px]" >(4.5 reviews)</p>
+              <p className="font-[Pro] text-[#7f7e97] text-[14px]" >(4.5 reviews)</p>
               </div>
             </div>
           </div>
           <div>
-            <p className="font-[Poppins] text-[30px] text-[#161439] font-semibold">Resolving Conflicts Between Designers And Engineers</p>
+            <p className="font-[Pro] text-[30px] text-[#161439] font-semibold">Resolving Conflicts Between Designers And Engineers</p>
           </div>
           <div className="flex gap-3 items-center flex-wrap">
             <div className="">
@@ -38,7 +38,7 @@ const Videosection = () => {
 
             </div>
             <div>
-                <p className="font-[Poppins] text-[#7f7e97] ">By <span className="text-black">David Millar</span></p>
+                <p className="font-[Pro] text-[#7f7e97] ">By <span className="text-black">David Millar</span></p>
             </div>
             <div>
                 <Dot size={30}></Dot>
@@ -48,7 +48,7 @@ const Videosection = () => {
                     <Calendar color="#7f7e97"></Calendar>
                 </div>
                 <div>
-                    <p className="font-[Poppins] text-[#7f7e97] font-medium">24/07/2024</p>
+                    <p className="font-[Pro] text-[#7f7e97] font-medium">24/07/2024</p>
                 </div>
             </div>
             <div>
@@ -59,7 +59,7 @@ const Videosection = () => {
                 <GraduationCap color="#7f7e97" />
                 </div>
                 <div>
-                    <p className="font-[Poppins] text-[#7f7e97] font-medium">2,260 Students</p>
+                    <p className="font-[Pro] text-[#7f7e97] font-medium">2,260 Students</p>
                 </div>
             </div>
           </div>
