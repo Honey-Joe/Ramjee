@@ -1,4 +1,3 @@
-import Coursetab from "../Coursetab/Coursetab"
 import Navtab from "../Navtab/Navtab"
 import Sidetab from "../Sidetab/Sidetab"
 import Videosection from "../Videosection/Videosection"
