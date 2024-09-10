@@ -5,7 +5,7 @@ const Sidetab = () => {
   return (
     <>
     <div className="max-w-[100%] py-[40px]">
-    <div className="w-full p-8 shadow-xl flex flex-col gap-5 rounded-lg justify-center">
+    <div className="w-full p-4 md:p-8 shadow-xl flex flex-col gap-5 rounded-lg justify-center">
             <div>
                 <img src={sidetab_img} alt="" />
             </div>

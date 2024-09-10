@@ -9,7 +9,7 @@ const Curriculam = () => {
   return (
     <>
       <div>
-        <div className="px-6 py-8 w-[100%]">
+        <div className="px-3 py-4 md:px-6 md:py-8 w-[100%]">
           <h1 className=" font-semibold text-[22px] font-[Pro] text-[#082a5e]">
             Course Curriculum
           </h1>

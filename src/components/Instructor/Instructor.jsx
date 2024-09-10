@@ -5,7 +5,7 @@ const Instructor = () => {
   return (
     <>
       <div>
-        <div className="py-10 px-10 shadow-[0px_0px_14px_0px_#00000014] grid grid-cols-1 lg:grid-cols-3  rounded-lg">
+        <div className="p-5 md:py-10 md:px-10 shadow-[0px_0px_14px_0px_#00000014] grid grid-cols-1 lg:grid-cols-3  rounded-lg">
           <div className="col-span-1 flex justify-center py-5 lg:py-0 items-center">
             <img src={instructor_img} alt="" className="w-[250px] h-[250px]"/>
           </div>

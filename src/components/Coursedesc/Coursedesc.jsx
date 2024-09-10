@@ -5,7 +5,7 @@ const Coursedesc = () => {
     <>
       <div className="max-w-[100%] mx-auto">
         <div className="w-full grid grid-cols-1 mx-auto">
-          <div className="py-10 px-10 shadow-[0px_0px_14px_0px_#00000014] flex flex-col gap-5 rounded-lg">
+          <div className="p-5 md:py-10 md:px-10 shadow-[0px_0px_14px_0px_#00000014] flex flex-col gap-5 rounded-lg">
             <div>
               <p className="font-[Pro] text-[24px] md:text-[30px] xl:text-[1.75rem] font-semibold text-[#161439]">Course Description</p>
             </div>
