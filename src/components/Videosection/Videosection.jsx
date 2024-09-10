@@ -30,7 +30,7 @@ const Videosection = () => {
             </div>
           </div>
           <div>
-            <p className="font-[Pro] text-[30px] text-[#161439] font-semibold">Resolving Conflicts Between Designers And Engineers</p>
+            <p className="font-[Pro] text-[24px] lg:text-[30px] text-[#161439] font-semibold">Resolving Conflicts Between Designers And Engineers</p>
           </div>
           <div className="flex gap-3 items-center flex-wrap">
             <div className="">

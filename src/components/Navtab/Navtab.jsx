@@ -22,7 +22,7 @@ function Navtab() {
         settings: {
           slidesToShow: 3,
           slidesToScroll: 3,
-          infinite: true,
+          infinite: false,
           dots: false,
         },
       },
@@ -57,7 +57,7 @@ function Navtab() {
       <div className="">
         <div className="">
           <Tabs defaultValue={1}>
-            <TabsList className="p-5">
+            <TabsList className="xl:pr-[500px]">
               <div className="slider-container pb-5">
                 <Slider {...settings}>
                   <div className="pb-5">
