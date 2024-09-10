@@ -22,7 +22,11 @@ const Videosection = () => {
               <button className="font-[Pro] font-medium text-[#161439] py-1 px-3 rounded-full bg-[#EFEFF2] hover:bg-[#5751E1] text-[14px] hover:text-white">Development</button>
             </div>
             <div className="flex items-center gap-1">
-              <Star color="#F8BC24" fill="#F8BC24"></Star>
+              <Star color="#F8BC24" fill="#F8BC24" size={16}></Star>
+              <Star color="#F8BC24" fill="#F8BC24" size={16}></Star>
+              <Star color="#F8BC24" fill="#F8BC24" size={16}></Star>
+              <Star color="#F8BC24" fill="#F8BC24" size={16}></Star>
+              <Star color="#F8BC24" fill="#F8BC24" size={16}></Star>
               <div>
 
               <p className="font-[Pro] text-[#7f7e97] text-[14px]" >(4.5 reviews)</p>

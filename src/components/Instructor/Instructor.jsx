@@ -17,7 +17,11 @@ const Instructor = () => {
               <p className="font-[Pro] text-[#5751e1] text-base">UX Design Lead</p>
             </div>
             <div className="flex items-center gap-1">
-              <Star color="#F8BC24" fill="#F8BC24"></Star>
+              <Star color="#F8BC24" fill="#F8BC24" size={16}></Star>
+              <Star color="#F8BC24" fill="#F8BC24" size={16}></Star>
+              <Star color="#F8BC24" fill="#F8BC24" size={16}></Star>
+              <Star color="#F8BC24" fill="#F8BC24" size={16}></Star>
+              <Star color="#F8BC24" fill="#F8BC24" size={16}></Star>
               <div>
                 <p className="font-[Pro] text-[#7f7e97] text-[14px]">
                   (4.5 reviews)
