@@ -1,5 +1,5 @@
 import { Facebook, Instagram, Star, Twitter } from "lucide-react";
-import { instructor_img } from "../../assets/image";
+import { instructor_img } from "../../../assets/image";
 
 const Instructor = () => {
   return (

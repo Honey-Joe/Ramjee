@@ -1,5 +1,5 @@
 import { Calendar, Dot, GraduationCap, Star } from "lucide-react";
-import { profile_img } from "../../assets/image";
+import { profile_img } from "../../../assets/image";
 
 const Videosection = () => {
   return (

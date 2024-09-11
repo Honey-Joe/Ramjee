@@ -1,19 +1,34 @@
 import ReactDOM from "react-dom/client";
 import "./index.css"
-import Header from "./components/Header/Header";
-import Body from "./components/Body/Body";
 import Footer from "./components/Footer/Footer";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import Contactroute from "./components/Contactroute/Contactroute";
+import Navbar from "./components/Navbar/Navbar";
+import Courseroute from "./components/Courseroute/Courseroute";
 
 const Applayot =()=>{
   return (
     <>
-      <Header></Header>
-      <Body></Body>
+      <Navbar></Navbar>
       <Footer></Footer>
     </>
   )
 }
+const approuter = createBrowserRouter([
+  {
+    path:"/contact",
+    element:<Contactroute></Contactroute> 
+  },
+  {
+    path:"/",
+    element:<Applayot></Applayot>
+  },
+  {
+    path:"/course",
+    element:<Courseroute></Courseroute>
+  }
+])
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(<Applayot></Applayot>)
+root.render(<RouterProvider router={approuter}></RouterProvider>)

@@ -5,7 +5,6 @@ import { Tab, TabPanel, Tabs, TabsList } from "@mui/base";
 import Coursedesc from "../Coursedesc/Coursedesc";
 import Curriculam from "../Curiculam/Curriculam";
 import Instructor from "../Instructor/Instructor";
-
 function Navtab() {
   var settings = {
     dots: false,

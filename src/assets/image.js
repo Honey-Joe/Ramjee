@@ -11,4 +11,6 @@ export const headerimg_ribbon = "https://ik.imagekit.io/HoneyJoe/Skiil%20grow/he
 export const headerimg_star ="https://ik.imagekit.io/HoneyJoe/Skiil%20grow/headerimg_star.png?updatedAt=1725764263319"
 export const sidetab_img = "https://ik.imagekit.io/HoneyJoe/Skiil%20grow/sidetab_img.avif?updatedAt=1725810743649"
 export const navlogo1 = "https://ik.imagekit.io/jjyo3gsee/HI-Study/image/footerlogo-removebg-preview.png?updatedAt=1724423932603";
+export const navlogo = "https://ik.imagekit.io/jjyo3gsee/images/navlogo-removebg-preview.png?updatedAt=1724435155303";
+
 

@@ -1,5 +1,5 @@
 import { ArrowRight, Award, Book, Clock, Facebook, GraduationCap, Instagram, Puzzle, Signal, Twitter } from "lucide-react"
-import { payment, sidetab_img } from "../../assets/image"
+import { payment, sidetab_img } from "../../../assets/image"
 
 const Sidetab = () => {
   return (
