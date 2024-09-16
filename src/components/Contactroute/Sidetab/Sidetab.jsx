@@ -9,7 +9,7 @@ const Sidetab = () => {
             <MapPin color="white"></MapPin>
           </div>
           <div className="flex justify-center">
-            <p className="font-[Pro] text-[16px] lg:text-[20px] font-semibold text-[#161439]">Address</p>
+            <p className="font-[Poppins] text-[16px] lg:text-[20px] font-semibold text-[#161439]">Address</p>
           </div>
         </div>
         <div className="flex items-center gap-8 bg-[#F7F7FA] py-9 px-10 border rounded-lg">
@@ -17,7 +17,7 @@ const Sidetab = () => {
             <PhoneCall color="white"></PhoneCall>
           </div>
           <div className="flex justify-center">
-            <p className="font-[Pro] text-[16px] lg:text-[20px] font-semibold text-[#161439]">Phone</p>
+            <p className="font-[Poppins] text-[16px] lg:text-[20px] font-semibold text-[#161439]">Phone</p>
           </div>
         </div>
         <div className="flex items-center gap-8 bg-[#F7F7FA] py-9 px-10 border rounded-lg">
@@ -25,7 +25,7 @@ const Sidetab = () => {
             <Mail color="white"></Mail>
           </div>
           <div className="flex justify-center">
-            <p className="font-[Pro] text-[16px] lg:text-[20px] font-semibold text-[#161439]">E-Mail</p>
+            <p className="font-[Poppins] text-[16px] lg:text-[20px] font-semibold text-[#161439]">E-Mail</p>
           </div>
         </div>
 

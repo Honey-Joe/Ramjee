@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <>
       <div>
-        <div className=" bg-[#06042E] bg-contain max-w-[100%] mt-10">
+        <div className=" bg-[#014BAE] bg-contain max-w-[100%] mt-10">
           <div className="w-[90%] lg:w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 pt-24 gap-10 ">
             <div className=" flex flex-col gap-3 pb-5 md:pb-0">
               <img
@@ -14,20 +14,20 @@ const Footer = () => {
                 alt="logo"
                 width={150}
               />
-              <p className=" text-[#fff] text-wrap font-[Pro] text-[16px] leading-7 pt-3">
+              <p className=" text-[#fff] text-wrap font-[Poppins] text-[16px] leading-7 pt-3">
                 when an unknown printer took galley of type and scrambled it to
                 make pspecimen bookt has.
               </p>
-              <p className=" text-white font-[Pro] pt-3">
+              <p className=" text-white font-[Poppins] pt-3">
                 70 Kaliamman Kovil Street, Palanganatham Pasumpon Nagar, Madurai
               </p>
-              <p className=" text-white font-[Pro]">+91 80729 48266</p>
+              <p className=" text-white font-[Poppins]">+91 80729 48266</p>
               <div></div>
             </div>
 
             <div className=" flex lg:justify-center md:pl-10">
               <div className=" flex flex-col gap-4 ">
-                <h1 className=" text-white font-[Pro] text-[24px] font-bold">
+                <h1 className=" text-white font-[Poppins] text-[24px] font-bold">
                   Resources
                 </h1>
                 <ul className=" text-[#ffffff] pt-4">
@@ -38,7 +38,7 @@ const Footer = () => {
                     ></div>{" "}
                     <a
                       href=""
-                      className=" font-[Pro] font-medium group-hover:text-[#fff] "
+                      className=" font-[Poppins] font-medium group-hover:text-[#fff] "
                     >
                       About
                     </a>
@@ -50,7 +50,7 @@ const Footer = () => {
                     ></div>
                     <a
                       href=""
-                      className=" font-[Pro] font-medium group-hover:text-[#fff]"
+                      className=" font-[Poppins] font-medium group-hover:text-[#fff]"
                     >
                       {" "}
                       Contact
@@ -63,7 +63,7 @@ const Footer = () => {
                     ></div>
                     <a
                       href=""
-                      className=" font-[Pro] font-medium group-hover:text-[#fff]"
+                      className=" font-[Poppins] font-medium group-hover:text-[#fff]"
                     >
                       Help Center
                     </a>
@@ -75,7 +75,7 @@ const Footer = () => {
                     ></div>
                     <a
                       href=""
-                      className=" font-[Pro] font-medium group-hover:text-[#fff]"
+                      className=" font-[Poppins] font-medium group-hover:text-[#fff]"
                     >
                       {" "}
                       Refund
@@ -88,7 +88,7 @@ const Footer = () => {
                     ></div>
                     <a
                       href=""
-                      className=" font-[Pro] font-medium group-hover:text-[#fff]"
+                      className=" font-[Poppins] font-medium group-hover:text-[#fff]"
                     >
                       {" "}
                       Conditions
@@ -101,7 +101,7 @@ const Footer = () => {
                     ></div>
                     <a
                       href=""
-                      className=" font-[Pro] font-medium group-hover:text-[#fff]"
+                      className=" font-[Poppins] font-medium group-hover:text-[#fff]"
                     >
                       {" "}
                       Privacy Policy
@@ -113,7 +113,7 @@ const Footer = () => {
 
             <div className=" flex lg:justify-start lg:pl-20">
               <div className=" flex flex-col gap-4 ">
-                <h1 className=" text-white font-[Pro] text-[24px] font-bold">
+                <h1 className=" text-white font-[Poppins] text-[24px] font-bold">
                   Courses
                 </h1>
                 <ul className=" text-[#fff] pt-4">
@@ -124,7 +124,7 @@ const Footer = () => {
                     ></div>
                     <a
                       href=""
-                      className=" font-[Pro] font-medium  group-hover:text-[#fff] "
+                      className=" font-[Poppins] font-medium  group-hover:text-[#fff] "
                     >
                       {" "}
                       Life Coach
@@ -137,7 +137,7 @@ const Footer = () => {
                     ></div>
                     <a
                       href=""
-                      className=" font-[Pro] font-medium group-hover:text-[#fff] "
+                      className=" font-[Poppins] font-medium group-hover:text-[#fff] "
                     >
                       {" "}
                       UI/UX Figma
@@ -150,7 +150,7 @@ const Footer = () => {
                     ></div>
                     <a
                       href=""
-                      className=" font-[Pro] font-medium group-hover:text-[#fff] "
+                      className=" font-[Poppins] font-medium group-hover:text-[#fff] "
                     >
                       Web Design
                     </a>
@@ -162,7 +162,7 @@ const Footer = () => {
                     ></div>
                     <a
                       href=""
-                      className=" font-[Pro] font-medium group-hover:text-[#fff] "
+                      className=" font-[Poppins] font-medium group-hover:text-[#fff] "
                     >
                       {" "}
                       Java
@@ -175,7 +175,7 @@ const Footer = () => {
                     ></div>
                     <a
                       href=""
-                      className=" font-[Pro] font-medium group-hover:text-[#fff] "
+                      className=" font-[Poppins] font-medium group-hover:text-[#fff] "
                     >
                       {" "}
                       Web Development
@@ -188,7 +188,7 @@ const Footer = () => {
                     ></div>
                     <a
                       href=""
-                      className=" font-[Pro] font-medium group-hover:text-[#fff] "
+                      className=" font-[Poppins] font-medium group-hover:text-[#fff] "
                     >
                       SEO Optimize
                     </a>
@@ -199,11 +199,11 @@ const Footer = () => {
 
             <div className=" flex lg:justify-center xl:justify-end">
               <div className="flex flex-col gap-4 ">
-                <h1 className=" text-white font-[Pro] text-[24px] font-bold pb-5">
+                <h1 className=" text-white font-[Poppins] text-[24px] font-bold pb-5">
                   Get in Touch
                 </h1>
                 <div>
-                  <p className="text-white font-[Pro]">
+                  <p className="text-white font-[Poppins]">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ac
                     minus vero similique.
                   </p>
@@ -237,22 +237,22 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className=" w-full border-t-[1px] py-7 mt-24 border-[#fff] bg-[#1C1A4A]">
+          <div className=" w-full border-t-[1px] py-7 mt-24 border-[#fff] bg-[#348AFE]">
             <div className=" 3xl:container w-[90%] xl:w-[90%] mx-auto">
               <div className=" lg:grid lg:grid-cols-2 grid-cols-1 flex flex-col items-center ">
                 <div>
-                  <p className=" text-[#fff] text-[15px] font-[Pro]">
+                  <p className=" text-[#fff] text-[15px] font-[Poppins]">
                     Copyright © 2024 code galatta. All rights reserved.
                   </p>
                 </div>
                 <div className=" flex gap-2 lg:justify-end md:pt-3 lg:p-0">
-                  <p className=" text-[#fff]  text-[15px] font-[Pro] font-medium">
+                  <p className=" text-[#fff]  text-[15px] font-[Poppins] font-medium">
                     Privacy Policy
                   </p>
-                  <p className=" text-[#fff] text-[15px] font-[Pro] font-medium">
+                  <p className=" text-[#fff] text-[15px] font-[Poppins] font-medium">
                     .
                   </p>
-                  <p className=" text-[#fff] text-[15px] font-[Pro] font-medium">
+                  <p className=" text-[#fff] text-[15px] font-[Poppins] font-medium">
                     Terms & Conditions
                   </p>
                 </div>

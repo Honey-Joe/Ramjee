@@ -7,13 +7,13 @@ const Partners = () => {
         <div className="w-[90%] mx-auto grid grid-cols-1 lg:grid-cols-2 pt-10">
             <div className="flex flex-col justify-center gap-4">
                 <div>
-                    <p className="font-[Pro] text-[#808080] text-[15px] tracking-widest">OUR PARTNERS</p>
+                    <p className="font-[Poppins] text-[#808080] text-[15px] tracking-widest">OUR PARTNERS</p>
                 </div>
                 <div>
-                    <p className="font-[Pro] text-[36px] font-semibold text-[#181818]">Learn With Our <br /> Partners</p>
+                    <p className="font-[Poppins] text-[36px] font-semibold text-[#181818]">Learn With Our <br /> Partners</p>
                 </div>
                 <div>
-                    <p className="font-[Pro] text-[15px] text-[#808080]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil laboriosam recusandae, voluptate assumenda delectus ea numquam labor</p>
+                    <p className="font-[Poppins] text-[15px] text-[#808080]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil laboriosam recusandae, voluptate assumenda delectus ea numquam labor</p>
                 </div>
             </div>
             <div className="flex justify-center items-center">

@@ -30,10 +30,10 @@ const ContactForm = () => {
     <>
       <div className="grid grid-cols-1 py-8 px-10 bg-[#F7F7FA] border rounded-lg gap-5">
         <div className="flex flex-col gap-4">
-          <p className="font-[Pro] text-[#161439] text-[26px] lg:text-[30px] font-semibold">
+          <p className="font-[Poppins] text-[#161439] text-[26px] lg:text-[30px] font-semibold">
             Send Us Message
           </p>
-          <p className="font-[Pro] text-[14px] lg:text-base text-[#6d6c80]">
+          <p className="font-[Poppins] text-[14px] lg:text-base text-[#6d6c80]">
             Your email address will not be published. Required fields are marked
             *
           </p>
@@ -91,7 +91,7 @@ const ContactForm = () => {
             <div>
                 <button
                   type="submit"
-                  className="flex items-center hover:shadow-none transition hover:bg-[#5751e1] hover:text-white gap-4 border-2 border-black rounded-full py-[16px] px-[30px] bg-[#ffc224] shadow-[4px_4px_0px_0px_#3d3d3d] hover:border-none font-[Pro] font-semibold"
+                  className="flex items-center hover:shadow-none transition hover:bg-[#5751e1] hover:text-white gap-4 border-2 border-black rounded-full py-[16px] px-[30px] bg-[#ffc224] shadow-[4px_4px_0px_0px_#3d3d3d] hover:border-none font-[Poppins] font-semibold"
                 >
                   See All Instructors <ArrowRight></ArrowRight>
                 </button>

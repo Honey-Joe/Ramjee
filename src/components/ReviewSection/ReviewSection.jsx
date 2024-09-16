@@ -50,13 +50,13 @@ const ReviewSection = () => {
             <div className="flex items-center">
             <div className="px-5 py-[5px] rounded-3xl bg-[#1176F0] relative left-3"></div>
             <div className="px-4 py-2 border-[1px] border-[#1176F0] rounded-3xl">
-              <p className="font-[Pro] font-bold text-base text-center">
+              <p className="font-[Poppins] font-bold text-base text-center">
                 Testimonial
               </p>
             </div>
           </div>
           <div>
-            <p className="font-[Pro] font-bold text-[24px] md:text-[34px]">
+            <p className="font-[Poppins] font-bold text-[24px] md:text-[34px]">
               WHAT OUR{" "}
               <span className="text-[#1176F0] underline">CUSTOMER SAYS</span>
             </p>

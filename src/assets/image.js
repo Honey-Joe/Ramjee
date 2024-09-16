@@ -10,8 +10,8 @@ export const google_play ="https://ik.imagekit.io/HoneyJoe/Skiil%20grow/google_p
 export const headerimg_ribbon = "https://ik.imagekit.io/HoneyJoe/Skiil%20grow/headerimg_ribbon.png?updatedAt=1725764263579"
 export const headerimg_star ="https://ik.imagekit.io/HoneyJoe/Skiil%20grow/headerimg_star.png?updatedAt=1725764263319"
 export const sidetab_img = "https://ik.imagekit.io/HoneyJoe/Skiil%20grow/sidetab_img.avif?updatedAt=1725810743649"
-export const navlogo1 = "https://ik.imagekit.io/jjyo3gsee/HI-Study/image/footerlogo-removebg-preview.png?updatedAt=1724423932603";
-export const navlogo = "https://ik.imagekit.io/jjyo3gsee/images/navlogo-removebg-preview.png?updatedAt=1724435155303";
+export const navlogo1 = "https://ik.imagekit.io/HoneyJoe/Skiil%20grow/WhatsApp%20Image%202024-09-13%20at%2014.29.52%201.png?updatedAt=1726502874241";
+export const navlogo = "https://ik.imagekit.io/HoneyJoe/Skiil%20grow/WhatsApp%20Image%202024-09-13%20at%2014.29.52%201.png?updatedAt=1726502874241";
 export const choose1 = "https://ik.imagekit.io/HoneyJoe/Skiil%20grow/02-1.jpg?updatedAt=1726475208657"
 export const choose2 = "https://ik.imagekit.io/HoneyJoe/Skiil%20grow/img-1.png?updatedAt=1726475208873"
 export const bulb = "https://ik.imagekit.io/HoneyJoe/Skiil%20grow/bulb-2.png?updatedAt=1726492343828"

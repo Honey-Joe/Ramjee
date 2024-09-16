@@ -10,7 +10,7 @@ const Curriculam = () => {
     <>
       <div>
         <div className="px-3 py-4 md:px-6 md:py-8 w-[100%] shadow-[0px_0px_14px_0px_#00000014] rounded-lg">
-          <h1 className=" font-semibold text-[22px] font-[Pro] text-[#082a5e]">
+          <h1 className=" font-semibold text-[22px] font-[Poppins] text-[#082a5e]">
             Course Curriculum
           </h1>
           <div className=" pt-5 group">
@@ -22,7 +22,7 @@ const Curriculam = () => {
                   : "rounded-md"
               }`}
             >
-              <span className="line-clamp-1 font-medium font-[Pro] text-[18px] transition-colors ease-in-out group-hover:text-[#1176F0] text-start ">
+              <span className="line-clamp-1 font-medium font-[Poppins] text-[18px] transition-colors ease-in-out group-hover:text-[#1176F0] text-start ">
                 Intoductions & Inspiration
               </span>
 
@@ -48,7 +48,7 @@ const Curriculam = () => {
                   <div>
                     <Youtube color="#475569" size={16}></Youtube>
                   </div>
-                  <p className=" font-medium text-[16px] hover:bg-[#ebecef] font-[Pro] text-slate-800 line-clamp-1">
+                  <p className=" font-medium text-[16px] hover:bg-[#ebecef] font-[Poppins] text-slate-800 line-clamp-1">
                     What is UIUX ?{" "}
                   </p>
                 </div>
@@ -60,7 +60,7 @@ const Curriculam = () => {
                 <div>
                     <Youtube color="#475569" size={16}></Youtube>
                   </div>
-                  <p className=" font-medium text-[16px] hover:bg-[#ebecef] font-[Pro] text-slate-800 line-clamp-1">
+                  <p className=" font-medium text-[16px] hover:bg-[#ebecef] font-[Poppins] text-slate-800 line-clamp-1">
                     Where it is Used?
                   </p>
                 </div>
@@ -71,7 +71,7 @@ const Curriculam = () => {
                 <div>
                     <Youtube color="#475569" size={16}></Youtube>
                   </div>
-                  <p className=" font-medium text-[16px] hover:bg-[#ebecef] font-[Pro] text-slate-800">
+                  <p className=" font-medium text-[16px] hover:bg-[#ebecef] font-[Poppins] text-slate-800">
                     Demands
                   </p>
                 </div>
@@ -83,7 +83,7 @@ const Curriculam = () => {
                 <div>
                     <Youtube color="#475569" size={16}></Youtube>
                   </div>
-                  <p className=" font-medium text-[16px] hover:bg-[#ebecef] font-[Pro] text-slate-800 line-clamp-1">
+                  <p className=" font-medium text-[16px] hover:bg-[#ebecef] font-[Poppins] text-slate-800 line-clamp-1">
                     Future Plans by learning FIGMA
                   </p>
                 </div>
@@ -94,7 +94,7 @@ const Curriculam = () => {
                 <div>
                     <Youtube color="#475569" size={16}></Youtube>
                   </div>
-                  <p className=" font-medium text-[16px] hover:bg-[#ebecef] font-[Pro] text-slate-800 line-clamp-1">
+                  <p className=" font-medium text-[16px] hover:bg-[#ebecef] font-[Poppins] text-slate-800 line-clamp-1">
                     Syllabus Detailed Explanations
                   </p>
                 </div>
@@ -105,7 +105,7 @@ const Curriculam = () => {
                 <div>
                     <Youtube color="#475569" size={16}></Youtube>
                   </div>
-                  <p className=" font-medium text-[16px] hover:bg-[#ebecef] font-[Pro] text-slate-800 line-clamp-1">
+                  <p className=" font-medium text-[16px] hover:bg-[#ebecef] font-[Poppins] text-slate-800 line-clamp-1">
                     Tools Setup i.e FIGMA
                   </p>
                 </div>
@@ -123,7 +123,7 @@ const Curriculam = () => {
                   : "rounded-md"
               }`}
             >
-              <span className="line-clamp-1 font-medium font-[Pro] text-[18px] text-center transition-colors ease-in-out group-hover:text-[#1176F0]">
+              <span className="line-clamp-1 font-medium font-[Poppins] text-[18px] text-center transition-colors ease-in-out group-hover:text-[#1176F0]">
                 Sketching
               </span>
             </button>
@@ -138,8 +138,8 @@ const Curriculam = () => {
                   : "rounded-md"
               }`}
             >
-              <span className=" font-medium font-[Pro] text-[18px] transition-colors ease-in-out group-hover:text-[#1176F0] line-clamp-1 text-start">
-                Project : Sketching a EDTECH APP & WEBSITE
+              <span className=" font-medium font-[Poppins] text-[18px] transition-colors ease-in-out group-hover:text-[#1176F0] line-clamp-1 text-start">
+                Poppinsject : Sketching a EDTECH APP & WEBSITE
               </span>
             </button>
           </div>
@@ -153,7 +153,7 @@ const Curriculam = () => {
                   : "rounded-md"
               }`}
             >
-              <span className=" font-medium font-[Pro] text-[18px] transition-colors ease-in-out group-hover:text-[#1176F0]">
+              <span className=" font-medium font-[Poppins] text-[18px] transition-colors ease-in-out group-hover:text-[#1176F0]">
                 Figma Basics
               </span>
             </button>
@@ -168,7 +168,7 @@ const Curriculam = () => {
                   : "rounded-md"
               }`}
             >
-              <span className=" font-medium font-[Pro] text-[18px] transition-colors ease-in-out group-hover:text-[#1176F0]">
+              <span className=" font-medium font-[Poppins] text-[18px] transition-colors ease-in-out group-hover:text-[#1176F0]">
                 Figma Tool
               </span>
 
@@ -194,7 +194,7 @@ const Curriculam = () => {
                 <div>
                     <Youtube color="#475569" size={16}></Youtube>
                   </div>
-                  <p className=" font-medium text-[16px] hover:bg-[#ebecef] font-[Pro] text-slate-800 line-clamp-1">
+                  <p className=" font-medium text-[16px] hover:bg-[#ebecef] font-[Poppins] text-slate-800 line-clamp-1">
                     Figma UI — Structure
                   </p>
                 </div>
@@ -206,7 +206,7 @@ const Curriculam = () => {
                 <div>
                     <Youtube color="#475569" size={16}></Youtube>
                   </div>
-                  <p className=" font-medium text-[16px] hover:bg-[#ebecef] font-[Pro] text-slate-800 line-clamp-1">
+                  <p className=" font-medium text-[16px] hover:bg-[#ebecef] font-[Poppins] text-slate-800 line-clamp-1">
                     Figma UI — Files
                   </p>
                 </div>
@@ -218,7 +218,7 @@ const Curriculam = () => {
                 <div>
                     <Youtube color="#475569" size={16}></Youtube>
                   </div>
-                  <p className=" font-medium text-[16px] hover:bg-[#ebecef] font-[Pro] text-slate-800 line-clamp-1">
+                  <p className=" font-medium text-[16px] hover:bg-[#ebecef] font-[Poppins] text-slate-800 line-clamp-1">
                     Figma UI — Toolbar
                   </p>
                 </div>
@@ -229,7 +229,7 @@ const Curriculam = () => {
                 <div>
                     <Youtube color="#475569" size={16}></Youtube>
                   </div>
-                  <p className=" font-medium text-[16px] hover:bg-[#ebecef] font-[Pro] text-slate-800 line-clamp-1">
+                  <p className=" font-medium text-[16px] hover:bg-[#ebecef] font-[Poppins] text-slate-800 line-clamp-1">
                     Figma UI — Left Sidebar
                   </p>
                 </div>
@@ -240,7 +240,7 @@ const Curriculam = () => {
                 <div>
                     <Youtube color="#475569" size={16}></Youtube>
                   </div>
-                  <p className=" font-medium text-[16px] hover:bg-[#ebecef] font-[Pro] text-slate-800 line-clamp-1">
+                  <p className=" font-medium text-[16px] hover:bg-[#ebecef] font-[Poppins] text-slate-800 line-clamp-1">
                     Figma UI — Right Sidebar
                   </p>
                 </div>
@@ -251,7 +251,7 @@ const Curriculam = () => {
                 <div>
                     <Youtube color="#475569" size={16}></Youtube>
                   </div>
-                  <p className=" font-medium text-[16px] hover:bg-[#ebecef] font-[Pro] text-slate-800 line-clamp-1">
+                  <p className=" font-medium text-[16px] hover:bg-[#ebecef] font-[Poppins] text-slate-800 line-clamp-1">
                     Frames
                   </p>
                 </div>

@@ -63,7 +63,7 @@ function Navtab() {
                     <Tab
                       slotProps={{
                         root: ({ selected, disabled }) => ({
-                          className: `font-[Pro] ${
+                          className: `font-[Poppins] ${
                             selected
                               ? " shadow-[4px_6px_0px_0px_#050071] text-white bg-[#5751e1]"
                               : "text-[#6d6c80] bg-[#E6E9EF] focus:text-black hover:text-white  hover:bg-[#5751e1] hover:shadow-[4px_6px_0px_0px_#050071]"
@@ -71,7 +71,7 @@ function Navtab() {
                             disabled
                               ? "cursor-not-allowed opacity-50"
                               : "cursor-pointer"
-                          } py-[14px] px-[30px] rounded-full font-[Pro] text-base font-semibold`,
+                          } py-[14px] px-[30px] rounded-full font-[Poppins] text-base font-semibold`,
                         }),
                       }}
                       value={1}
@@ -83,7 +83,7 @@ function Navtab() {
                     <Tab
                       slotProps={{
                         root: ({ selected, disabled }) => ({
-                          className: `font-[Pro]  ${
+                          className: `font-[Poppins]  ${
                             selected
                               ? "shadow-[4px_6px_0px_0px_#050071] text-white bg-[#5751e1]"
                               : "text-[#6d6c80] bg-[#E6E9EF] focus:text-black hover:text-white  hover:bg-[#5751e1] hover:shadow-[4px_6px_0px_0px_#050071]"
@@ -91,7 +91,7 @@ function Navtab() {
                             disabled
                               ? "cursor-not-allowed opacity-50"
                               : "cursor-pointer"
-                          }  py-[14px] px-[30px] rounded-full font-[Pro] text-base font-semibold`,
+                          }  py-[14px] px-[30px] rounded-full font-[Poppins] text-base font-semibold`,
                         }),
                       }}
                       value={2}
@@ -103,7 +103,7 @@ function Navtab() {
                     <Tab
                       slotProps={{
                         root: ({ selected, disabled }) => ({
-                          className: `font-[Pro] ${
+                          className: `font-[Poppins] ${
                             selected
                               ? "shadow-[4px_6px_0px_0px_#050071] text-white bg-[#5751e1]"
                               : "text-[#6d6c80] bg-[#E6E9EF] focus:text-black hover:text-white  hover:bg-[#5751e1] hover:shadow-[4px_6px_0px_0px_#050071]"
@@ -111,7 +111,7 @@ function Navtab() {
                             disabled
                               ? "cursor-not-allowed opacity-50"
                               : "cursor-pointer"
-                          }  py-[14px] px-[30px] rounded-full font-[Pro] text-base font-semibold`,
+                          }  py-[14px] px-[30px] rounded-full font-[Poppins] text-base font-semibold`,
                         }),
                       }}
                       value={3}
