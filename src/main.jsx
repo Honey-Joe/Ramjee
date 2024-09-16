@@ -5,11 +5,13 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Contactroute from "./components/Contactroute/Contactroute";
 import Navbar from "./components/Navbar/Navbar";
 import Courseroute from "./components/Courseroute/Courseroute";
+import ReviewSection from "./components/ReviewSection/ReviewSection";
 
 const Applayot =()=>{
   return (
     <>
       <Navbar></Navbar>
+      <ReviewSection></ReviewSection>
       <Footer></Footer>
     </>
   )
