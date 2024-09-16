@@ -45,7 +45,7 @@ const ReviewSection = () => {
   return (
     <>
       <div className="max-w-[100%]">
-        <div className="w-[90%] mx-auto my-32">
+        <div className="w-[85%] lg:w-[90%] mx-auto my-32">
             <div className="my-5">
             <div className="flex items-center">
             <div className="px-5 py-[5px] rounded-3xl bg-[#1176F0] relative left-3"></div>
