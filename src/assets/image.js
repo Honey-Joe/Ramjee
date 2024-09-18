@@ -34,6 +34,8 @@ export const pop2 = "https://ik.imagekit.io/HoneyJoe/Skiil%20grow/2.png?updatedA
 export const pop3 = "https://ik.imagekit.io/HoneyJoe/Skiil%20grow/3.svg?updatedAt=1726496184764"
 export const pop4 ="https://ik.imagekit.io/HoneyJoe/Skiil%20grow/4.svg?updatedAt=1726496184764"
 
+export const aboutus= "https://ik.imagekit.io/HoneyJoe/Skiil%20grow/about.png?updatedAt=1726668980371";
+export const aboutshape = "https://ik.imagekit.io/HoneyJoe/Skiil%20grow/shape1.svg?updatedAt=1726669522815"
 
 
 
