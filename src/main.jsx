@@ -6,6 +6,7 @@ import Contactroute from "./components/Contactroute/Contactroute";
 import Navbar from "./components/Navbar/Navbar";
 import Courseroute from "./components/Courseroute/Courseroute";
 import Body from "./components/Body/Body";
+import AboutRoute from "./components/AboutRoute/AboutRoute";
 
 const Applayot =()=>{
   return (
@@ -28,6 +29,10 @@ const approuter = createBrowserRouter([
   {
     path:"/course",
     element:<Courseroute></Courseroute>
+  },
+  {
+    path:"/about",
+    element:<AboutRoute></AboutRoute>
   }
 ])
 

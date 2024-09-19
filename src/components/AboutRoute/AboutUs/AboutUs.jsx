@@ -1,4 +1,4 @@
-import { aboutshape, aboutus } from "../../assets/image";
+import { aboutshape, aboutus } from "../../../assets/image";
 
 const AboutUs = () => {
   return (

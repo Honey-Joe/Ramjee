@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <>
       <div>
-        <div className=" bg-[#014BAE] bg-contain max-w-[100%] mt-10">
+        <div className=" bg-[url(https://ik.imagekit.io/HoneyJoe/Skiil%20grow/Frame%2040288.png?updatedAt=1726761404248)] bg-contain max-w-[100%] mt-10">
           <div className="w-[90%] lg:w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 pt-24 gap-10 ">
             <div className=" flex flex-col gap-3 pb-5 md:pb-0">
               <img
@@ -237,12 +237,12 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className=" w-full border-t-[1px] py-7 mt-24 border-[#fff] bg-[#348AFE]">
+          <div className=" w-full border-t-[1px] py-7 mt-24">
             <div className=" 3xl:container w-[90%] xl:w-[90%] mx-auto">
               <div className=" lg:grid lg:grid-cols-2 grid-cols-1 flex flex-col items-center ">
                 <div>
                   <p className=" text-[#fff] text-[15px] font-[Poppins]">
-                    Copyright © 2024 code galatta. All rights reserved.
+                    Copyright © 2024 Ramjee. All rights reserved.
                   </p>
                 </div>
                 <div className=" flex gap-2 lg:justify-end md:pt-3 lg:p-0">

@@ -1,4 +1,4 @@
-import { aboutimg1, aboutimg2, aboutimg3, aboutimg4 } from "../../assets/image";
+import { aboutimg1, aboutimg2, aboutimg3, aboutimg4 } from "../../../assets/image";
 
 const About = () => {
   return (

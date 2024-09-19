@@ -1,4 +1,4 @@
-import { brand1, brand2, brand3, brand4, brand5, brand6, brand7, brand8 } from "../../assets/image"
+import { brand1, brand2, brand3, brand4, brand5, brand6, brand7, brand8 } from "../../../assets/image"
 
 const Partners = () => {
   return (

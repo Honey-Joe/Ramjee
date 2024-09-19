@@ -10,10 +10,10 @@ const ReviewSection = () => {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 1000,
+    autoplaySpeed: 5000,
     initialSlide: 0,
     responsive: [
       {
@@ -48,7 +48,6 @@ const ReviewSection = () => {
         <div className="w-[85%] lg:w-[90%] mx-auto my-32">
             <div className="my-5">
             <div className="flex items-center">
-            <div className="px-5 py-[5px] rounded-3xl bg-[#1176F0] relative left-3"></div>
             <div className="px-4 py-2 border-[1px] border-[#1176F0] rounded-3xl">
               <p className="font-[Poppins] font-bold text-base text-center">
                 Testimonial
