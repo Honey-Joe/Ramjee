@@ -10,10 +10,10 @@ const Body = () => {
     <>  
         <Homepage/>
         <UpcomingEvent/>
-        <SearchNav/>
         <ChooseUs></ChooseUs>
         <CourseSection></CourseSection>
         <ReviewSection></ReviewSection>
+        <SearchNav/>
     </>
   )
 }
