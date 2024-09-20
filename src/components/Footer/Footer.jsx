@@ -33,24 +33,24 @@ const Footer = () => {
                 <ul className=" text-[#ffffff] pt-4">
                   <li className=" pb-4 flex items-center group">
                     <div
-                      className=" w-0 h-1 rounded-lg bg-[#fff] group-hover:w-4"
+                      className=" w-0 h-1 rounded-lg bg-[#fff] group-hover:w-4 transition-all"
                       id="move"
                     ></div>{" "}
                     <a
                       href=""
-                      className=" font-[Poppins] font-medium group-hover:text-[#fff] "
+                      className=" font-[Poppins] font-medium group-hover:text-[#fff]  transition-all"
                     >
                       About
                     </a>
                   </li>
                   <li className=" pb-4 flex items-center group">
                     <div
-                      className=" w-0 h-1 rounded-lg bg-[#fff]  group-hover:w-4"
+                      className=" w-0 h-1 rounded-lg bg-[#fff]  group-hover:w-4 transition-all"
                       id="move"
                     ></div>
                     <a
                       href=""
-                      className=" font-[Poppins] font-medium group-hover:text-[#fff]"
+                      className=" font-[Poppins] font-medium group-hover:text-[#fff] transition-all"
                     >
                       {" "}
                       Contact
@@ -58,7 +58,7 @@ const Footer = () => {
                   </li>
                   <li className=" pb-4 flex items-center group">
                     <div
-                      className=" w-0 h-1 rounded-lg bg-[#fff] group-hover:w-4"
+                      className=" w-0 h-1 rounded-lg bg-[#fff] group-hover:w-4 transition-all"
                       id="move"
                     ></div>
                     <a
@@ -70,7 +70,7 @@ const Footer = () => {
                   </li>
                   <li className=" pb-4 flex items-center group">
                     <div
-                      className=" w-0 h-1 rounded-lg bg-[#fff] group-hover:w-4"
+                      className=" w-0 h-1 rounded-lg bg-[#fff] group-hover:w-4 transition-all"
                       id="move"
                     ></div>
                     <a
@@ -83,7 +83,7 @@ const Footer = () => {
                   </li>
                   <li className=" pb-4 flex items-center group">
                     <div
-                      className=" w-0 h-1 rounded-lg bg-[#fff] group-hover:w-4"
+                      className=" w-0 h-1 rounded-lg bg-[#fff] group-hover:w-4 transition-all"
                       id="move"
                     ></div>
                     <a
@@ -96,7 +96,7 @@ const Footer = () => {
                   </li>
                   <li className=" pb-4 flex items-center group">
                     <div
-                      className=" w-0 h-1 rounded-lg bg-[#fff] group-hover:w-4"
+                      className=" w-0 h-1 rounded-lg bg-[#fff] group-hover:w-4 transition-all"
                       id="move"
                     ></div>
                     <a
@@ -119,7 +119,7 @@ const Footer = () => {
                 <ul className=" text-[#fff] pt-4">
                   <li className=" pb-4 flex items-center group">
                     <div
-                      className=" w-0 h-1 rounded-lg bg-[#fff] group-hover:w-4"
+                      className=" w-0 h-1 rounded-lg bg-[#fff] group-hover:w-4 transition-all"
                       id="move"
                     ></div>
                     <a
@@ -132,7 +132,7 @@ const Footer = () => {
                   </li>
                   <li className=" pb-4 flex items-center group">
                     <div
-                      className=" w-0 h-1 rounded-lg bg-[#fff] group-hover:w-4"
+                      className=" w-0 h-1 rounded-lg bg-[#fff] group-hover:w-4 transition-all"
                       id="move"
                     ></div>
                     <a
@@ -145,7 +145,7 @@ const Footer = () => {
                   </li>
                   <li className=" pb-4 flex items-center group">
                     <div
-                      className=" w-0 h-1 rounded-lg bg-[#fff] group-hover:w-4"
+                      className=" w-0 h-1 rounded-lg bg-[#fff] group-hover:w-4 transition-all"
                       id="move"
                     ></div>
                     <a
@@ -157,7 +157,7 @@ const Footer = () => {
                   </li>
                   <li className=" pb-4 flex items-center group">
                     <div
-                      className=" w-0 h-1 rounded-lg bg-[#fff] group-hover:w-4"
+                      className=" w-0 h-1 rounded-lg bg-[#fff] group-hover:w-4 transition-all"
                       id="move"
                     ></div>
                     <a
@@ -170,7 +170,7 @@ const Footer = () => {
                   </li>
                   <li className=" pb-4 flex items-center group">
                     <div
-                      className=" w-0 h-1 rounded-lg bg-[#fff] group-hover:w-4"
+                      className=" w-0 h-1 rounded-lg bg-[#fff] group-hover:w-4 transition-all"
                       id="move"
                     ></div>
                     <a
@@ -183,7 +183,7 @@ const Footer = () => {
                   </li>
                   <li className=" pb-4 flex items-center group">
                     <div
-                      className=" w-0 h-1 rounded-lg bg-[#fff] group-hover:w-4"
+                      className=" w-0 h-1 rounded-lg bg-[#fff] group-hover:w-4 transition-all"
                       id="move"
                     ></div>
                     <a

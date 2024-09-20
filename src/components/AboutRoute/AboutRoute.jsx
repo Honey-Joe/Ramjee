@@ -5,15 +5,19 @@ import AboutUs from "./AboutUs/AboutUs"
 import Many from "./Many/Many"
 import Partners from "./Partners/Partners"
 import Navbar from "../Navbar/Navbar"
+import LiveClasses from "./LiveClasses/LiveClasses"
+import Mentor from "./Mentor/Mentor"
 
 const AboutRoute = () => {
   return (
     <>
-        <Navbar></Navbar>
+      <Navbar></Navbar>
+      <LiveClasses/>
       <AboutUs></AboutUs>
       <About></About>
       <Many></Many>
       <Popular></Popular>
+      <Mentor/>
       <Partners></Partners>
       <Footer></Footer>
     </>
