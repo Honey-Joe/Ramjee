@@ -124,10 +124,10 @@ const Homepage = () => {
                                     <div className="p-4 bg-white">
                                         <div className=" flex items-center justify-between ">
                                             <div className=" flex items-center gap-1">
-                                                <User className=" stroke-green-600 w-4 "/>
-                                                <p className=" text-[#E27447] font-[poppins] font-bold text-sm ">Smit Samus</p>
+                                                <User className=" stroke-[#014BAE] text-[#014BAE] w-4 "/>
+                                                <p className=" text-[#014BAE] font-[poppins] font-bold text-sm ">Smit Samus</p>
                                             </div>
-                                            <h2 className=" font-bold text-green-600 text-xl font-[poppins]">$22</h2>
+                                            <h2 className=" font-bold text-[#014BAE] text-xl font-[poppins]">$22</h2>
                                         </div>
                                         <p className=" font-bold font-[poppins] text-black text-lg py-3">Innovative Leadership in <br /> Digital Age:Navigating <br /> Change & Driving Growth</p>
                                     </div>
@@ -145,8 +145,8 @@ const Homepage = () => {
                                     <div className=" absolute w-full h-full top-0 rounded-xl bg-white hover:transition-all group-hover:right-[0px] transition-all duration-500 -right-[570px] px-5">
                                         <div>
                                             <div className=" flex items-center gap-1 pt-20 ">
-                                                <User className=" stroke-green-600 w-4 "/>
-                                                <p className=" text-[#E27447] font-[poppins] font-bold text-sm ">Smit Samus</p>
+                                                <User className=" stroke-[#014BAE] w-4 "/>
+                                                <p className=" text-[#014BAE] font-[poppins] font-bold text-sm ">Smit Samus</p>
                                             </div>
                                             <p className=" font-bold font-[poppins] text-black text-lg py-6">Innovative Leadership in <br /> Digital Age:Navigating <br /> Change & Driving Growth</p>
                                         </div>
@@ -175,10 +175,10 @@ const Homepage = () => {
                                     <div className="p-4 bg-white">
                                         <div className=" flex items-center justify-between ">
                                             <div className=" flex items-center gap-1">
-                                                <User className=" stroke-green-600 w-4 "/>
+                                                <User className=" stroke-[#014BAE] w-4 "/>
                                                 <p className=" text-[#014bae] font-[poppins] font-bold text-sm ">Smit Samus</p>
                                             </div>
-                                            <h2 className=" font-bold text-green-600 text-xl font-[poppins]">$22</h2>
+                                            <h2 className=" font-bold text-[#014BAE] text-xl font-[poppins]">$22</h2>
                                         </div>
                                         <p className=" font-bold font-[poppins] text-black text-lg py-3">Innovative Leadership in <br /> Digital Age:Navigating <br /> Change & Driving Growth</p>
                                     </div>
@@ -196,7 +196,7 @@ const Homepage = () => {
                                     <div className=" absolute w-full h-full top-0 rounded-xl bg-white hover:transition-all group-hover:right-[0px] transition-all duration-500 -right-[570px] px-5">
                                         <div>
                                             <div className=" flex items-center gap-1 pt-20 ">
-                                                <User className=" stroke-green-600 w-4 "/>
+                                                <User className=" stroke-[#014BAE] "/>
                                                 <p className=" text-[#014bae] font-[poppins] font-bold text-sm ">Smit Samus</p>
                                             </div>
                                             <p className=" font-bold font-[poppins] text-black text-lg py-6">Innovative Leadership in <br /> Digital Age:Navigating <br /> Change & Driving Growth</p>
