@@ -4,6 +4,8 @@ import { TabPanel } from "@mui/base/TabPanel";
 import { Tab } from "@mui/base/Tab";
 import { ChevronRight, GraduationCap } from "lucide-react";
 import { coursetab1, coursetab2, coursetab3, coursetab4, coursetab5, coursetab6 } from "../../../assets/image";
+import AllCourse from "../AllCourse/AllCourse";
+import ArtDevelop from "../ArtDevelop/ArtDevelop";
 
 export default function CourseTab() {
     return (
@@ -134,12 +136,12 @@ export default function CourseTab() {
                   </TabsList>
                 </div>
   
-                <div className="col-span-4 md:col-span-2 lg:col-span-2">
+                <div className="col-span-4 md:col-span-2 lg:col-span-3">
                   <TabPanel value={0}>
-                    One
+                    <AllCourse></AllCourse>
                   </TabPanel>
                   <TabPanel value={1}>
-                      Two
+                      <ArtDevelop></ArtDevelop>
                   </TabPanel>
                   <TabPanel value={2}>
                     Four

@@ -36,7 +36,7 @@ const approuter = createBrowserRouter([
     element:<AboutRoute></AboutRoute>
   },
   {
-    path:"/blog",
+    path:"/coursedetails",
     element:<CourseDetails></CourseDetails>
   }
 ])
