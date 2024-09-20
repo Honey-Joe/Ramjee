@@ -11,7 +11,7 @@ const Instructor = () => {
           </div>
           <div className="col-span-2 flex flex-col gap-5">
             <div>
-              <p className="font-[Poppins] text-[#161439] font-semibold text-[20px] md:text-[26px] xl:text-[30px]">Mark Jukarberg</p>
+              <p className="font-[Poppins] text-[#014BAE] font-semibold text-[20px] md:text-[26px] xl:text-[30px]">Mark Jukarberg</p>
             </div>
             <div>
               <p className="font-[Poppins] text-[#5751e1] text-base">UX Design Lead</p>

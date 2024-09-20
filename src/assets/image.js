@@ -44,6 +44,14 @@ export const coursetab4 = "https://ik.imagekit.io/HoneyJoe/Skiil%20grow/category
 export const coursetab5 = "https://ik.imagekit.io/HoneyJoe/Skiil%20grow/category-icon-image-1.svg?updatedAt=1726762610982"
 export const coursetab6 = "https://ik.imagekit.io/HoneyJoe/Skiil%20grow/category-icon-image-6.svg?updatedAt=1726762611062"
 
+export const abouthead1440 = "https://ik.imagekit.io/HoneyJoe/Skiil%20grow/abouthead.png?updatedAt=1726842127364"
+export const abouthead745 = "https://ik.imagekit.io/HoneyJoe/Skiil%20grow/abouthead746.png?updatedAt=1726842126948"
+export const aboutheadmob = "https://ik.imagekit.io/HoneyJoe/Skiil%20grow/abouthead420.png?updatedAt=1726842126683"
+
+export const contacthead1440 = "https://ik.imagekit.io/HoneyJoe/Skiil%20grow/Frame%2040280.png?updatedAt=1726842406638"
+export const contacthead745 = "https://ik.imagekit.io/HoneyJoe/Skiil%20grow/Frame%2040283.png?updatedAt=1726842406253"
+export const contactheadmob = "https://ik.imagekit.io/HoneyJoe/Skiil%20grow/Frame%2040286.png?updatedAt=1726842407552"
+
 
 
 

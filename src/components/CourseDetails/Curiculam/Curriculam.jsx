@@ -10,7 +10,7 @@ const Curriculam = () => {
     <>
       <div>
         <div className="px-3 py-4 md:px-6 md:py-8 w-[100%] shadow-[0px_0px_14px_0px_#00000014] rounded-lg">
-          <h1 className=" font-semibold text-[22px] font-[Poppins] text-[#082a5e]">
+          <h1 className=" font-semibold text-[22px] font-[Poppins] text-[#014BAE]">
             Course Curriculum
           </h1>
           <div className=" pt-5 group">

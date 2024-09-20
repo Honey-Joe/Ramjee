@@ -9,7 +9,7 @@ const Sidetab = () => {
             <div>
                 <img src={sidetab_img} alt="" />
             </div>
-            <div className="bg-[#5751E1] rounded-lg flex justify-center flex-col p-5 shadow-[0px_3px_15px_0px_#0d096342]">
+            <div className="bg-[#014BAE] rounded-lg flex justify-center flex-col p-5 shadow-[0px_3px_15px_0px_#0d096342]">
                 <div>
                     <p className="font-[Poppins] text-white font-medium text-[18px]">This Course Fee:</p>
                 </div>
@@ -19,7 +19,7 @@ const Sidetab = () => {
             </div>
             <div className="flex flex-col gap-3">
                 <div>
-                    <p className="font-[Poppins] text-[#161439] font-medium text-base">Course includes:</p>
+                    <p className="font-[Poppins] text-[#014BAE] font-medium text-base">Course includes:</p>
                 </div>
                 <div className="flex flex-col gap-4">
                 <div className="flex justify-between">
@@ -129,7 +129,7 @@ const Sidetab = () => {
             </div>
             <div className="flex flex-col gap-3">
                 <div>
-                    <p className="font-[Poppins] text-[#161439] font-medium text-base">Secure Payment:</p>
+                    <p className="font-[Poppins] text-[#014BAE] font-medium text-base">Secure Payment:</p>
                 </div>
                 <div>
                     <img src={payment} alt="" />
@@ -138,7 +138,7 @@ const Sidetab = () => {
             <hr />
             <div className="flex flex-col gap-3">
                 <div>
-                    <p className="font-[Poppins] text-[#161439] font-medium text-base">Share this Course:</p>
+                    <p className="font-[Poppins] text-[#014BAE] font-medium text-base">Share this Course:</p>
                 </div>
                 <div className="flex justify-start gap-2">
                 <div className="text-[#7f7e97] rounded-full bg-transparent hover:bg-blue-900 hover:text-white transition p-3">
@@ -157,7 +157,7 @@ const Sidetab = () => {
             <hr />
             <div className="flex justify-center">
                 <div>
-                    <button className="flex items-center hover:shadow-none transition hover:bg-[#5751e1] hover:text-white gap-4 border-2 border-black rounded-full py-[16px] px-[30px] bg-[#ffc224] shadow-[4px_4px_0px_0px_#3d3d3d] hover:border-none font-[Poppins] font-semibold">
+                    <button className="flex items-center hover:shadow-none transition hover:bg-[#fff] gap-4 border-2 border-black rounded-full py-[16px] px-[30px] bg-[#FFDE05]  hover:border font-[Poppins] font-semibold">
                         See All Instructors <ArrowRight></ArrowRight> 
                     </button>
                 </div>

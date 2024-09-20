@@ -7,7 +7,7 @@ const AllCourse = () => {
   return (
     <>
         <div className='max-w-[100%]'>
-            <div className='w-[100%] grid grid-cols-1 lg:grid-cols-3 gap-2'>
+            <div className='w-[100%] grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-2'>
                 {
                     CourseCardData.map((e)=>{
                         return(

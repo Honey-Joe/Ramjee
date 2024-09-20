@@ -19,7 +19,7 @@ const Videosection = () => {
         <div className="flex flex-col gap-3">
           <div className="flex gap-3">
             <div>
-              <button className="font-[Poppins] font-medium text-[#161439] py-1 px-3 rounded-full bg-[#EFEFF2] hover:bg-[#5751E1] text-[14px] hover:text-white">Development</button>
+              <button className="font-[Poppins] font-medium text-[#014BAE] py-1 px-3 rounded-full bg-[#EFEFF2] hover:bg-[#5751E1] text-[14px] hover:text-white">Development</button>
             </div>
             <div className="flex items-center gap-1">
               <Star color="#F8BC24" fill="#F8BC24" size={16}></Star>
@@ -34,7 +34,7 @@ const Videosection = () => {
             </div>
           </div>
           <div>
-            <p className="font-[Poppins] text-[24px] lg:text-[30px] text-[#161439] font-semibold">Resolving Conflicts Between Designers And Engineers</p>
+            <p className="font-[Poppins] text-[24px] lg:text-[30px] text-[#014BAE] font-semibold">Resolving Conflicts Between Designers And Engineers</p>
           </div>
           <div className="flex gap-3 items-center flex-wrap">
             <div className="">

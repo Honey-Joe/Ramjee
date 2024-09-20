@@ -18,14 +18,14 @@ const CourseCard = (props) => {
         </div>
         <div className="flex flex-col items-center gap-2">
           <div>
-            <p className="font-[Poppins] font-bold text-[25px] text-[#12100b]">
+            <p className="font-[Poppins] font-bold text-[22px] lg:text-[25px] text-[#12100b]">
               {props.title}
             </p>
           </div>
           <div className="flex flex-col gap-3">
             <div className="flex gap-1 justify-evenly items-center">
               <div>
-                <p className="font-[Poppins] text-[40px] font-bold">
+                <p className="font-[Poppins] text-[32px] lg:text-[40px] font-bold">
                   {props.price}
                 </p>
               </div>

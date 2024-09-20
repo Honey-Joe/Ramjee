@@ -65,8 +65,8 @@ function Navtab() {
                         root: ({ selected, disabled }) => ({
                           className: `font-[Poppins] ${
                             selected
-                              ? " shadow-[4px_6px_0px_0px_#050071] text-white bg-[#5751e1]"
-                              : "text-[#6d6c80] bg-[#E6E9EF] focus:text-black hover:text-white  hover:bg-[#5751e1] hover:shadow-[4px_6px_0px_0px_#050071]"
+                              ? "   text-white bg-[#014BAE]"
+                              : "text-[#6d6c80] bg-[#E6E9EF] focus:text-black hover:text-white  hover:bg-[#014BAE] "
                           } ${
                             disabled
                               ? "cursor-not-allowed opacity-50"
@@ -85,8 +85,8 @@ function Navtab() {
                         root: ({ selected, disabled }) => ({
                           className: `font-[Poppins]  ${
                             selected
-                              ? "shadow-[4px_6px_0px_0px_#050071] text-white bg-[#5751e1]"
-                              : "text-[#6d6c80] bg-[#E6E9EF] focus:text-black hover:text-white  hover:bg-[#5751e1] hover:shadow-[4px_6px_0px_0px_#050071]"
+                              ? "  text-white bg-[#014BAE]"
+                              : "text-[#6d6c80] bg-[#E6E9EF] focus:text-black hover:text-white  hover:bg-[#014BAE] "
                           } ${
                             disabled
                               ? "cursor-not-allowed opacity-50"
@@ -105,8 +105,8 @@ function Navtab() {
                         root: ({ selected, disabled }) => ({
                           className: `font-[Poppins] ${
                             selected
-                              ? "shadow-[4px_6px_0px_0px_#050071] text-white bg-[#5751e1]"
-                              : "text-[#6d6c80] bg-[#E6E9EF] focus:text-black hover:text-white  hover:bg-[#5751e1] hover:shadow-[4px_6px_0px_0px_#050071]"
+                              ? "  text-white bg-[#014BAE]"
+                              : "text-[#6d6c80] bg-[#E6E9EF] focus:text-black hover:text-white  hover:bg-[#014BAE] "
                           } ${
                             disabled
                               ? "cursor-not-allowed opacity-50"

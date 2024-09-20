@@ -82,7 +82,7 @@ const AboutUs = () => {
               </div>
             </div>
             <div className="flex">
-            <button className="bg-[#014BAE] text-black font-medium font-[Poppins] px-10 py-3 border border-[#014BAE] rounded-full hover:bg-transparent transition">Discover More</button>
+            <button className="bg-[#014BAE] text-white font-medium font-[Poppins] px-10 py-3 border border-[#014BAE] rounded-full hover:bg-transparent hover:text-black transition">Discover More</button>
 
             </div>
             
