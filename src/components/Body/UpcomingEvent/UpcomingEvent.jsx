@@ -5,7 +5,7 @@ import UpcomingEventCard from "./UpcomingEventCard/UpcomingEventCard"
 const UpcomingEvent = () => {
   return (
     <>
-        <div>
+        <div className="w-[90%] mx-auto">
             <h3 className=" font-medium text-[#1363DF] uppercase bg-[#E7EFFC] px-3 py-2 rounded-md w-fit font-[poppins]">Featured Events</h3>
             <div className=" flex justify-between items-center flex-wrap">
                 <div><h1 className=" font-bold text-[#082A5E] md:text-[36px] text-nowrap text-[29px] uppercase mt-3 font-[poppins]">Upcoming <span className="text-[#1363DF] font-[poppins]">Events</span></h1></div>
@@ -26,7 +26,7 @@ const UpcomingEvent = () => {
                     }
                 </div>
             </div>
-        </div>
+
     </>
   )
 }
