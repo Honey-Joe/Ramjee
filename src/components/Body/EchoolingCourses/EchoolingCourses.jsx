@@ -54,26 +54,14 @@ const EchoolingCourses = () => {
                         Remote Learning</h1>
                     </div>
                         {/* lg:px-[100px] */}
-                    <div className="container absolute top-[320px] md:top-[270px] mx-auto">
-                        <Slider {...settings}>
-                            {EchoolingCourseCardApi.map((e,index) => (
-                                <EchoolingCoursesCard icon={e.icon} title={e.title} desc={e.desc} learnmore={e.learnmore} />
-                            ))}
-                        </Slider>
+                    <div className=" w-full absolute top-[320px] md:top-[270px] mx-auto">
+                      <Slider {...settings}>
+                          {EchoolingCourseCardApi.map((e,index) => (
+                              <EchoolingCoursesCard icon={e.icon} title={e.title} desc={e.desc} learnmore={e.learnmore} />
+                          ))}
+                      </Slider>
                     </div>
                 </div>
-
-                {/* <div className="lg:mt-52 md:mt-[200px] mt-0">
-                    <LiveClasses/>
-                </div>
-                
-                <div>
-                    <Mentor/>
-                </div>
-                
-                <div>
-                    <UpcomingEvent/>
-                </div> */}
             </div>
         </div>
     </>
