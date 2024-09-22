@@ -4,7 +4,7 @@ import { bulb, choose1, choose2 } from "../../assets/image";
 const ChooseUs = () => {
   return (
     <>
-      <div className="max-w-[100%] bg-[#014BAE] mt-32 mb-10 bg-cover bg-no-repeat">
+      <div className="max-w-[100%] bg-[#014BAE] md:mt-16 mt-10 mb-24 bg-cover bg-no-repeat">
         <div className="w-[90%] grid grid-cols-1 lg:grid-cols-2 mx-auto py-[20px] lg:py-[50px] gap-10">
           <div className="h-full p-3 rounded-md shadow-lg  bg-[#80B6FE]">
             <div className="w-full h-full">

@@ -29,7 +29,7 @@ const Counter = () => {
   return (
     <>
         <div>
-            <div className=" flex justify-center items-center gap-12 my-20 lg:my-40">
+            <div className=" flex justify-center items-center gap-12 pb-20 lg:pb-28">
                 <span className=" w-20 h-[3px] bg-[#014BAE] lg:block hidden"></span>
                 <h1 className=" font-[poppins] text-2xl font-bold text-center uppercase">Trusted by <span className=" text-[#014BAE]">Companies</span> Achievements</h1>
                 <span className=" w-20 h-[3px] bg-[#014BAE] lg:block hidden"></span>

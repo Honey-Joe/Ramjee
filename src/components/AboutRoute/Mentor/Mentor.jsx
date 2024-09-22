@@ -4,9 +4,9 @@ import MentroCard from "./MentorCard/MentroCard"
 
 const Mentor = () => {
   return (
-    <>
-        <div className=" max-w-[100%] mx-auto">
-            <div className=" w-[90%] mx-auto my-10">
+    <> 
+        <div className=" max-w-[100%] mx-auto my-20">
+            <div className=" w-[90%] mx-auto">
                 <div>
                     <h3 className=" font-medium text-[#1363DF] bg-[#E7EFFC] uppercase px-3 py-2 rounded-md w-fit">Our Qualified People Matter</h3>
                     <div className=" flex justify-between items-center flex-wrap">

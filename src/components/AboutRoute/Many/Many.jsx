@@ -2,14 +2,14 @@
 const Many = () => {
   return (
     <>
-        <div className="max-w-[100%]">
-            <div className="w-[90%] mx-auto grid grid-cols-1 py-[40px] gap-5">
+        <div className="max-w-[100%] my-20">
+            <div className="w-[90%] mx-auto grid grid-cols-1 py-[0px] gap-5">
                 
                 <div className="flex justify-center">
-                    <p className="font-[Poppins] text-[18px] text-[#014BAE] font-semibold">Features</p>
+                    <p className="font-[Poppins] text-[18px] text-[#014BAE] font-semibold uppercase">Features</p>
                 </div> 
                 <div className="flex justify-center">
-                    <p className="font-[Poppins] text-[22px] lg:text-[32px] font-bold">One Platform Many Course</p>
+                    <p className="font-[Poppins] text-[22px] lg:text-[32px] font-bold uppercase">One Platform Many Course</p>
                 </div>
                 <div className="grid grid-cols-1 lg:grid-cols-4 gap-5 ">
                     <div className="border-2 py-24 px-12 flex justify-center gap-4 flex-col items-center relative rounded-lg hover:rounded-tr-[80px] hover:border-[#014BAE] transition-all ">

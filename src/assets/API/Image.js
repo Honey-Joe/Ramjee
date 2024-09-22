@@ -9,3 +9,5 @@ export const suganth = "https://ik.imagekit.io/jjyo3gsee/HI-Study/image/suganth.
 export const home_img="https://ik.imagekit.io/jjyo3gsee/Echooling/home-logo.png?updatedAt=1726668535317";
 export const home_img2="https://ik.imagekit.io/jjyo3gsee/Echooling/home-logo-2.png?updatedAt=1726672073935";
 export const home_img3="https://ik.imagekit.io/jjyo3gsee/Echooling/home-logo-3.png?updatedAt=1726672073855";
+
+export const sideblub = "https://ik.imagekit.io/jjyo3gsee/HI-Study/image/bulb-6.png?updatedAt=1724605662409"
