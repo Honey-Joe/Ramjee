@@ -239,7 +239,7 @@ const Homepage = () => {
                             </div>
                             <div className=" flex items-start flex-col">
                                 <h1 className=" font-bold text-2xl">100+</h1>
-                                <p className=" text-[#553CDF] leading-[4px]">(Online Course</p>
+                                <p className=" text-[#553CDF] leading-[4px]">Online Course</p>
                             </div>
                         </div>
                     </div>

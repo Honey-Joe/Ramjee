@@ -52,6 +52,14 @@ export const contacthead1440 = "https://ik.imagekit.io/HoneyJoe/Skiil%20grow/Fra
 export const contacthead745 = "https://ik.imagekit.io/HoneyJoe/Skiil%20grow/Frame%2040283.png?updatedAt=1726842406253"
 export const contactheadmob = "https://ik.imagekit.io/HoneyJoe/Skiil%20grow/Frame%2040286.png?updatedAt=1726842407552"
 
+export const coursehead1440 = "https://ik.imagekit.io/HoneyJoe/Skiil%20grow/Frame%2040289.png?updatedAt=1726987722245"
+export const coursehead745 = "https://ik.imagekit.io/HoneyJoe/Skiil%20grow/Frame%2040290.png?updatedAt=1726987721631"
+export const courseheadmob = "https://ik.imagekit.io/HoneyJoe/Skiil%20grow/Frame%2040291.png?updatedAt=1726987721141"
+
+export const coursedhead1440 = "https://ik.imagekit.io/HoneyJoe/Skiil%20grow/Frame%20735.png?updatedAt=1726988054675"
+export const coursedhead745 = "https://ik.imagekit.io/HoneyJoe/Skiil%20grow/Frame%20736.png?updatedAt=1726988054307"
+export const coursedheadmob = "https://ik.imagekit.io/HoneyJoe/Skiil%20grow/Frame%20737.png?updatedAt=1726988054028"
+
 
 
 

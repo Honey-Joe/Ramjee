@@ -9,9 +9,8 @@ const Popular = () => {
           <div>
             <div className="grid grid-cols-1 lg:grid-cols-2">
               <div>
-                <p className="font-[Poppins] text-[#0f1216] text-[24px] lg:text-[44px] font-bold">
-                  Popular Topic, Which are Most <br />
-                  Favourite To Students
+                <p className="font-[Poppins] text-[#0f1216] text-[24px] lg:text-[32px] font-bold">
+                  Popular Topic, Which are Most Favourite To Students
                 </p>
               </div>
               <div className="flex justify-end items-end">

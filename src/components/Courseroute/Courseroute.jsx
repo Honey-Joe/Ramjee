@@ -5,11 +5,13 @@ import Footer from "../Footer/Footer"
 // import Header from "./Header/Header"
 import Navbar from "../Navbar/Navbar"
 import CourseTab from "./CourseTab/CourseTab"
+import Header from "./Header/Header"
 
 const Courseroute = () => {
   return (
     <>
       <Navbar></Navbar>
+      <Header></Header>
       <CourseTab></CourseTab>
       <Footer></Footer>
     {/* <Navbar></Navbar>

@@ -15,9 +15,9 @@ export default function CourseTab() {
             <Tabs defaultValue={0} orientation="vertical">
               <div className=" grid grid-cols-4  gap-14">
                 <div className="h-fit col-span-4 md:col-span-2 lg:col-span-1 border py-5 px-2 rounded-xl">
-                    <div>
+                    {/* <div>
                         <h2 className="font-[Poppins] text-[24px] font-medium text-center"> Course Categories</h2>
-                    </div>
+                    </div> */}
                   <TabsList
                     className="w-[100%] flex flex-col gap-5 py-7 px-3 bg-white rounded-lg h-[100%]"
                     id="certi"
@@ -26,7 +26,7 @@ export default function CourseTab() {
                       slotProps={{
                         root: ({ selected, disabled }) => ({
                           className: `font-[Poppins]  ${
-                            selected ? "text-[#FFEB6B] " : "text-black"
+                            selected ? "text-[#014BAE] " : "text-black"
                           } ${
                             disabled
                               ? "cursor-not-allowed opacity-50"
@@ -42,7 +42,7 @@ export default function CourseTab() {
                       slotProps={{
                         root: ({ selected, disabled }) => ({
                           className: `font-[Poppins]  ${
-                            selected ? "text-[#FFEB6B] " : "text-black"
+                            selected ? "text-[#014BAE] " : "text-black"
                           } ${
                             disabled
                               ? "cursor-not-allowed opacity-50"
@@ -58,7 +58,7 @@ export default function CourseTab() {
                       slotProps={{
                         root: ({ selected, disabled }) => ({
                           className: `font-[Poppins]  ${
-                            selected ? "text-[#FFEB6B] " : "text-black"
+                            selected ? "text-[#014BAE] " : "text-black"
                           } ${
                             disabled
                               ? "cursor-not-allowed opacity-50"
@@ -74,7 +74,7 @@ export default function CourseTab() {
                       slotProps={{
                         root: ({ selected, disabled }) => ({
                           className: `font-[Poppins]  ${
-                            selected ? "text-[#FFEB6B] " : "text-black"
+                            selected ? "text-[#014BAE] " : "text-black"
                           } ${
                             disabled
                               ? "cursor-not-allowed opacity-50"
@@ -90,7 +90,7 @@ export default function CourseTab() {
                       slotProps={{
                         root: ({ selected, disabled }) => ({
                           className: `font-[Poppins]  ${
-                            selected ? "text-[#FFEB6B] " : "text-black"
+                            selected ? "text-[#014BAE] " : "text-black"
                           } ${
                             disabled
                               ? "cursor-not-allowed opacity-50"
@@ -106,7 +106,7 @@ export default function CourseTab() {
                       slotProps={{
                         root: ({ selected, disabled }) => ({
                           className: `font-[Poppins]  ${
-                            selected ? "text-[#FFEB6B] " : "text-black"
+                            selected ? "text-[#014BAE] " : "text-black"
                           } ${
                             disabled
                               ? "cursor-not-allowed opacity-50"
@@ -122,7 +122,7 @@ export default function CourseTab() {
                       slotProps={{
                         root: ({ selected, disabled }) => ({
                           className: `font-[Poppins]  ${
-                            selected ? "text-[#FFEB6B] " : "text-black"
+                            selected ? "text-[#014BAE] " : "text-black"
                           } ${
                             disabled
                               ? "cursor-not-allowed opacity-50"
