@@ -4,9 +4,9 @@ const AboutUs = () => {
   return (
     <>
       <div className="max-w-[100%] mb-20">
-        <div className="w-[90%] mx-auto grid grid-cols-1 lg:grid-cols-2 py-[40px]">
-          <div>
-            <img src={aboutus} alt="aboutus image" />
+        <div className="w-[90%] mx-auto grid grid-cols-1 lg:grid-cols-2 py-[40px] gap-5">
+          <div className="">
+          <iframe width="560" height="415" src="https://www.youtube.com/embed/gsG7uj9-4Jo?si=kWgbcWZq3SwWufzu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen className="p-3 rounded-lg shadow-lg border w-[90%]"></iframe> 
           </div>
           <div className="flex flex-col gap-8">
             <div className="flex justify-between items-center">

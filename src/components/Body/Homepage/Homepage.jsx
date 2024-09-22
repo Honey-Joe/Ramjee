@@ -18,10 +18,10 @@ const Homepage = () => {
       };
   return (
     <>
-        <div className=" max-w-[100%] mx-auto"> 
-            <div className=" w-[90%] lg:w-[90%] mx-auto my-10 lg:mt-28 lg:mb-32">
+        <div className=" max-w-[100%] mx-auto" > 
+            <div className=" w-[90%] lg:w-[90%] mx-auto py-[30px] lg:py-[40px] mt-24">
                 
-                <div className=" grid grid-cols-1 md:grid-cols-4 w-full items-center my-40">
+                <div className=" grid grid-cols-1 md:grid-cols-4 w-full items-center">
                     <div className=" col-span-4 xl:col-span-3  order-2 md:order-1 lg:pt-0">
                         <div className="flex items-center gap-2 border-2 w-fit p-1 rounded-full pr-5 group">
                             <Zap className=" w-8 h-8 bg-[#014cae3e] group-hover:bg-[#014BAE] group-hover:stroke-white p-2 rounded-full transition-colors"/>
@@ -232,26 +232,20 @@ const Homepage = () => {
                         <img src={sideblub} alt="blub" className=""/>
                     </div>
 
-                    <div className="animate-pulse duration-700 absolute top-[22%] left-[30%] border border-[#553CDF] rounded-md xl:block hidden">
+                    <div className="animate-pulse duration-700 absolute top-[18%] left-[30%] border border-[#014BAE] rounded-md xl:block hidden">
                         <div className=" flex gap-3 items-start p-1 px-2">
                             <div>
-                                <BookOpenText className=" w-12 h-12 stroke-white stroke-1 p-1 rounded-md bg-[#553CDF]"/>
+                                <BookOpenText className=" w-12 h-12 stroke-white stroke-1 p-1 rounded-md bg-[#014BAE]"/>
                             </div>
                             <div className=" flex items-start flex-col">
                                 <h1 className=" font-bold text-2xl">100+</h1>
-                                <p className=" text-[#553CDF] leading-[4px]">Online Course</p>
+                                <p className=" text-[#014BAE] leading-[4px]">Online Course</p>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div className="">
-                    <Counter/>
-                </div>
-
-                <div className=" md:mb-[290px] md:mt-28 mt-20 mb-36">
-                    <EchoolingCourses/>
-                </div>
+                
             </div>
         </div>
     </>

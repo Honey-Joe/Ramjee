@@ -6,7 +6,7 @@ const CourseSection = () => {
   return (
     <>
     <div className='max-w-[100%]'>
-        <div className='w-[90%] mx-auto grid grid-cols-1 gap-5'>
+        <div className='w-[90%] mx-auto grid grid-cols-1 gap-5 py-[20px] lg:py-[40px]'>
             <div className='grid grid-cols-1 lg:grid-cols-2'>
                 <div className='flex flex-col items-start gap-2'>
                     <p className='font-[Poppins] text-[#014BAE] px-3 py-1 rounded-md border bg-[#CCE2FF] uppercase'>Popular Course</p>

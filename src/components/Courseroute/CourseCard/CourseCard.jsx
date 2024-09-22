@@ -4,7 +4,7 @@ import React from "react";
 const CourseCard = (props) => {
   return (
     <>
-      <div className="max-w-[100%] py-3 px-5 border flex flex-col gap-5 rounded-lg group transition-colors">
+      <div className="max-w-[100%] py-3 px-5 border flex flex-col gap-5 rounded-lg group transition-colors shadow-lg" id="flash-box">
         <div className=" flex justify-center relative">
           <img src={props.imgurl} alt="" className=" h-[200px] object-cover group-hover:scale-110 transition-all" />
           <div className="flex gap-3 absolute top-0 right-0">
@@ -18,7 +18,7 @@ const CourseCard = (props) => {
         </div>
         <div className="flex flex-col items-center gap-2">
           <div>
-            <p className="font-[Poppins] font-bold text-[22px] lg:text-[25px] text-[#12100b]">
+            <p className="font-[Poppins] font-bold text-[20px] lg:text-[25px] text-[#12100b]">
               {props.title}
             </p>
           </div>

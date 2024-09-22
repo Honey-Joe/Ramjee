@@ -31,7 +31,7 @@ export default function CourseTab() {
                             disabled
                               ? "cursor-not-allowed opacity-50"
                               : "cursor-pointer"
-                          } text-[20px] w-full px-2 py-0   flex  gap-5 items-center focus:outline-0`,
+                          } text-[20px] w-full px-2 py-0 font-semibold  flex  gap-5 items-center focus:outline-0`,
                         }),
                       }}
                     >
@@ -47,7 +47,7 @@ export default function CourseTab() {
                             disabled
                               ? "cursor-not-allowed opacity-50"
                               : "cursor-pointer"
-                          } text-[20px] gap-5 w-full px-2 py-0   flex  items-center focus:outline-0`,
+                          } text-[20px] gap-5 w-full px-2 py-0 font-semibold   flex  items-center focus:outline-0`,
                         }),
                       }}
                     >
@@ -63,7 +63,7 @@ export default function CourseTab() {
                             disabled
                               ? "cursor-not-allowed opacity-50"
                               : "cursor-pointer"
-                          } text-[20px] gap-5 w-full px-2 py-0   flex  items-center focus:outline-0`,
+                          } text-[20px] gap-5 w-full px-2 py-0 font-semibold   flex  items-center focus:outline-0`,
                         }),
                       }}
                     >
@@ -79,7 +79,7 @@ export default function CourseTab() {
                             disabled
                               ? "cursor-not-allowed opacity-50"
                               : "cursor-pointer"
-                          } text-[20px] gap-5 w-full px-2 py-0   flex  items-center focus:outline-0`,
+                          } text-[20px] gap-5 w-full px-2 py-0 font-semibold   flex  items-center focus:outline-0`,
                         }),
                       }}
                     >
@@ -95,7 +95,7 @@ export default function CourseTab() {
                             disabled
                               ? "cursor-not-allowed opacity-50"
                               : "cursor-pointer"
-                          } text-[20px] gap-5 w-full px-2 py-0   flex  items-center focus:outline-0`,
+                          } text-[20px] gap-5 w-full px-2 py-0 font-semibold   flex  items-center focus:outline-0`,
                         }),
                       }}
                     >
@@ -111,7 +111,7 @@ export default function CourseTab() {
                             disabled
                               ? "cursor-not-allowed opacity-50"
                               : "cursor-pointer"
-                          } text-[20px] gap-5 w-full px-2 py-0   flex  items-center focus:outline-0`,
+                          } text-[20px] gap-5 w-full px-2 py-0 font-semibold   flex  items-center focus:outline-0`,
                         }),
                       }}
                     >
@@ -127,7 +127,7 @@ export default function CourseTab() {
                             disabled
                               ? "cursor-not-allowed opacity-50"
                               : "cursor-pointer"
-                          } text-[20px] gap-5 w-full px-2 py-0   flex  items-center focus:outline-0`,
+                          } text-[20px] gap-5 w-full px-2 py-0 font-semibold   flex  items-center focus:outline-0`,
                         }),
                       }}
                     >

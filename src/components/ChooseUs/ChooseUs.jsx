@@ -4,7 +4,7 @@ import { bulb, choose1, choose2 } from "../../assets/image";
 const ChooseUs = () => {
   return (
     <>
-      <div className="max-w-[100%] bg-[#014BAE] md:mt-16 mt-10 mb-24 bg-cover bg-no-repeat">
+      <div className="max-w-[100%] bg-[#014BAE] lg:py-[40px] py-[20px]  bg-cover bg-no-repeat">
         <div className="w-[90%] grid grid-cols-1 lg:grid-cols-2 mx-auto py-[20px] lg:py-[50px] gap-10">
           <div className="h-full p-3 rounded-md shadow-lg  bg-[#80B6FE]">
             <div className="w-full h-full">
@@ -15,7 +15,7 @@ const ChooseUs = () => {
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
-                className="rounded-lg w-full h-full"
+                className="rounded-lg w-full h-full md:h-[400px] lg:h-full"
               ></iframe>
             </div>
           </div>
@@ -44,7 +44,7 @@ const ChooseUs = () => {
               </p>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3  gap-8">
-              <div className="border px-3 py-1 flex gap-5 rounded-lg">
+              <div className="border px-3 py-1 flex  gap-5 rounded-lg">
                 <div className="flex items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

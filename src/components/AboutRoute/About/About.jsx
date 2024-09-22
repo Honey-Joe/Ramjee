@@ -4,7 +4,7 @@ const About = () => {
   return (
     <>
       <div className="max-w-[100%] bg-[#014BAE]">
-        <div className="w-[90%] mx-auto grid grid-cols-1 py-11 gap-11">
+        <div className="w-[90%] mx-auto grid grid-cols-1 py-14 gap-11">
           <div className="flex justify-center flex-col items-center gap-4">
             <div>
               <p className="font-[Poppins] bg-[#0162E4] px-3 py-1 text-white text-[18px] rounded-full font-medium">How We Start Journey</p>
@@ -13,7 +13,7 @@ const About = () => {
               <p className="font-[Poppins] text-white text-[24px] lg:text-[40px] font-semibold text-center">Start your Learning Journey Today!</p>
             </div>
             <div>
-              <p className="text-center text-[#80B6FE] text-base font-[Poppins]">
+              <p className="text-center text-[#fff] text-base font-[Poppins]">
                 Groove’s intuitive shared inbox makesteam members together{" "}
                 <br />
                 organize, prioritize and.In this episode

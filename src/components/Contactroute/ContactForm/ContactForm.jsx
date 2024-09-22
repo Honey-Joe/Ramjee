@@ -28,7 +28,7 @@ const ContactForm = () => {
       };
   return (
     <>
-      <div className="grid grid-cols-1 py-8 px-10 bg-[#CCE2FF] border rounded-lg gap-5">
+      <div className="grid grid-cols-1 py-8 px-10 shadow-lg border rounded-lg gap-5">
         <div className="flex flex-col gap-4">
           <p className="font-[Poppins] text-[#014BAE] text-[26px] lg:text-[30px] font-semibold">
             Send Us Message
@@ -47,7 +47,7 @@ const ContactForm = () => {
                 placeholder="Comment"
                 rows={4}
                 cols={30}
-                className="p-5 border rounded-lg lg:w-[550px]"
+                className="p-5 border rounded-lg lg:w-[550px] shadow-lg"
                 {...register("comment")}
               ></textarea>
               <p className="text-red-500">{errors.comment?.message}</p>
@@ -59,7 +59,7 @@ const ContactForm = () => {
                   name="name"
                   id="name"
                   placeholder="Name*"
-                  className="px-5 py-2 border rounded-lg"
+                  className="px-5 py-2 border rounded-lg shadow-lg"
                   {...register("name")}
                 />
                 <p className="text-red-500">{errors.name?.message}</p>
@@ -70,7 +70,7 @@ const ContactForm = () => {
                   name="email"
                   id="email"
                   placeholder="*Email"
-                  className="px-5 py-2 border rounded-lg"
+                  className="px-5 py-2 border rounded-lg shadow-lg"
                   {...register("email")}
                 />
                 <p className="text-red-500">{errors.email?.message}</p>
@@ -81,7 +81,7 @@ const ContactForm = () => {
                   name="web"
                   id="web"
                   placeholder="Website"
-                  className="px-5 py-2 border rounded-lg"
+                  className="px-5 py-2 border rounded-lg shadow-lg"
                   {...register("web")}
                 />
                 <p className="text-red-500">{errors.web?.message}</p>
