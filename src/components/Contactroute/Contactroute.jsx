@@ -1,3 +1,4 @@
+
 import Footer from "../Footer/Footer"
 import Navbar from "../Navbar/Navbar"
 import ContactForm from "./ContactForm/ContactForm"
@@ -17,7 +18,6 @@ const Contactroute = () => {
         <div className=" lg:col-span-3">
           <ContactForm></ContactForm>
         </div>
-
       </div>
       <Map></Map>
       <Footer></Footer>

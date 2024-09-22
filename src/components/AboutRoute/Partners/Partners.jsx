@@ -3,8 +3,8 @@ import { brand1, brand2, brand3, brand4, brand5, brand6, brand7, brand8 } from "
 const Partners = () => {
   return (
     <>
-    <div className="max-w-[100%]">
-        <div className="w-[90%] mx-auto grid grid-cols-1 lg:grid-cols-2 pt-10 items-start">
+    <div className="max-w-[100%] mb-20">
+        <div className="w-[90%] mx-auto grid grid-cols-1 lg:grid-cols-2 items-start">
             <div className="flex flex-col justify-center gap-4">
                 <div>
                     <p className="font-[Poppins] text-[#808080] text-[15px] tracking-widest">OUR PARTNERS</p>

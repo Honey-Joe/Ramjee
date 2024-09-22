@@ -47,21 +47,21 @@ const EchoolingCourses = () => {
     <>
         <div className=" ">
             <div className="">
-                <div className=" relative">
-                    <div className=" text-center bg-[#F2F4F9] pt-20 pb-60 my-20 rounded-xl">
-                        <h5 className=" text-center font-bold text-[#014bae] py-2 uppercase font-[poppins]">Echooling available courses</h5>
-                        <h1 className=" font-bold text-[35px] md:text-[40px] md:leading-tight leading-normal text-wrap px-12  font-[poppins] uppercase">Online Coaching Lessons For <br className=" md:block hidden"/>
-                        Remote Learning</h1>
-                    </div>
-                        {/* lg:px-[100px] */}
-                    <div className=" w-full absolute top-[320px] md:top-[270px] mx-auto">
-                      <Slider {...settings}>
-                          {EchoolingCourseCardApi.map((e,index) => (
-                              <EchoolingCoursesCard icon={e.icon} title={e.title} desc={e.desc} learnmore={e.learnmore} />
-                          ))}
-                      </Slider>
-                    </div>
-                </div>
+              <div className="relative">
+                  <div className=" text-center bg-[#F2F4F9] pt-20 pb-60 rounded-xl">
+                      <h5 className=" text-center font-bold text-[#014bae] py-2 uppercase font-[poppins]">Echooling available courses</h5>
+                      <h1 className=" font-bold text-[35px] md:text-[40px] md:leading-tight leading-normal text-wrap px-12  font-[poppins] uppercase">Online Coaching Lessons For <br className=" md:block hidden"/>
+                      Remote Learning</h1>
+                  </div>
+                      
+                  <div className=" w-full absolute top-[320px] md:top-[270px] mx-auto">
+                    <Slider {...settings}>
+                        {EchoolingCourseCardApi.map((e,index) => (
+                            <EchoolingCoursesCard icon={e.icon} title={e.title} desc={e.desc} learnmore={e.learnmore} />
+                        ))}
+                    </Slider>
+                  </div>
+              </div>
             </div>
         </div>
     </>

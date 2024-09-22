@@ -3,7 +3,7 @@ import { aboutshape, aboutus } from "../../../assets/image";
 const AboutUs = () => {
   return (
     <>
-      <div className="max-w-[100%]">
+      <div className="max-w-[100%] mb-20">
         <div className="w-[90%] mx-auto grid grid-cols-1 lg:grid-cols-2 py-[40px]">
           <div>
             <img src={aboutus} alt="aboutus image" />

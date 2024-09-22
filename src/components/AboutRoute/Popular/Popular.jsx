@@ -5,7 +5,7 @@ const Popular = () => {
   return (
     <>
       <div className="max-w-[100%]">
-        <div className="grid grid-cols-1 w-[90%] mx-auto py-[40px] gap-10">
+        <div className="grid grid-cols-1 w-[90%] mx-auto py-[0px] gap-10">
           <div>
             <div className="grid grid-cols-1 lg:grid-cols-2">
               <div>

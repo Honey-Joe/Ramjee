@@ -45,7 +45,7 @@ const ReviewSection = () => {
   return (
     <>
       <div className="max-w-[100%]">
-        <div className="w-[85%] lg:w-[90%] mx-auto my-32">
+        <div className="w-[85%] lg:w-[90%] mx-auto my-[98px]">
             <div className="my-5">
             <div className="flex items-center">
             <div className="px-4 py-2 border-[1px] bg-[#CCE2FF] rounded-md text-[#1176F0]">
@@ -63,7 +63,7 @@ const ReviewSection = () => {
 
             </div>
           
-          <div className="container">
+          <div className=" w-full">
             <Slider {...settings}>
               {ReviewData.map((item) => (
                 <ReviewCard

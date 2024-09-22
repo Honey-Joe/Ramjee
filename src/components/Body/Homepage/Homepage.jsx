@@ -1,11 +1,13 @@
-import {Zap,ArrowUpRight, Star, User, CalendarRange  } from "lucide-react";
-import { home_img, home_img2, home_img3 , suganth } from "../../../assets/API/Image";
+import {Zap,ArrowUpRight, Star, User, CalendarRange,BookOpenText  } from "lucide-react";
+import { sideblub, home_img, home_img2, home_img3 , suganth } from "../../../assets/API/Image";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import Counter from "../Counter/Counter";
 import EchoolingCourses from "../EchoolingCourses/EchoolingCourses";
 import UpcomingEvent from "../UpcomingEvent/UpcomingEvent";
+import Animatedcursor from "../../AnimatedCursor/AnimatedCursor";
+
 const Homepage = () => {
     var settings = {
         dots: true,
@@ -19,6 +21,7 @@ const Homepage = () => {
     <>
         <div className=" max-w-[100%] mx-auto"> 
             <div className=" w-[90%] lg:w-[90%] mx-auto my-10 lg:mt-28 lg:mb-32">
+                <Animatedcursor/>
                 <div className=" grid grid-cols-1 md:grid-cols-4 w-full items-center my-40">
                     <div className=" col-span-4 xl:col-span-3  order-2 md:order-1 lg:pt-0">
                         <div className="flex items-center gap-2 border-2 w-fit p-1 rounded-full pr-5 group">
@@ -222,16 +225,34 @@ const Homepage = () => {
                     </div>
                 </div>
 
+                <div>
+                    <div className=" w-10 absolute top-[39%] right-[33%] xl:block hidden animate-bounce">
+                        <img src={sideblub} alt="blub" className=""/>
+                    </div>
+                    <div className=" w-10 absolute top-[15%] right-[15%] xl:block hidden animate-bounce">
+                        <img src={sideblub} alt="blub" className=""/>
+                    </div>
+
+                    <div className="animate-pulse duration-700 absolute top-[22%] left-[30%] border border-[#553CDF] rounded-md xl:block hidden">
+                        <div className=" flex gap-3 items-start p-1 px-2">
+                            <div>
+                                <BookOpenText className=" w-12 h-12 stroke-white stroke-1 p-1 rounded-md bg-[#553CDF]"/>
+                            </div>
+                            <div className=" flex items-start flex-col">
+                                <h1 className=" font-bold text-2xl">100+</h1>
+                                <p className=" text-[#553CDF] leading-[4px]">(Online Course</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <div className="">
                     <Counter/>
                 </div>
 
-                <div className=" md:mb-56 ">
+                <div className=" md:mb-[290px] md:mt-28 mt-20 mb-36">
                     <EchoolingCourses/>
                 </div>
-
-                
-
             </div>
         </div>
     </>

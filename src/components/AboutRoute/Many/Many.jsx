@@ -2,8 +2,8 @@
 const Many = () => {
   return (
     <>
-        <div className="max-w-[100%]">
-            <div className="w-[90%] mx-auto grid grid-cols-1 py-[40px] gap-5">
+        <div className="max-w-[100%] my-20">
+            <div className="w-[90%] mx-auto grid grid-cols-1 py-[0px] gap-5">
                 
                 <div className="flex justify-center">
                     <p className="font-[Poppins] text-[18px] text-[#014BAE] font-semibold uppercase">Features</p>
