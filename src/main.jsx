@@ -8,6 +8,8 @@ import Courseroute from "./components/Courseroute/Courseroute";
 import Body from "./components/Body/Body";
 import AboutRoute from "./components/AboutRoute/AboutRoute";
 import CourseDetails from "./components/CourseDetails/CourseDetails";
+import QuizRoute from "./components/QuizRoute/QuizRoute";
+import PhysicDetailPage from "./components/QuizRoute/PhysicDetailPage/PhysicDetailPage";
 
 const Applayot =()=>{
   return (
@@ -28,6 +30,10 @@ const approuter = createBrowserRouter([
     element:<Applayot></Applayot>
   },
   {
+    path:"/quiz",
+    element:<QuizRoute/>
+  },
+  {
     path:"/course",
     element:<Courseroute></Courseroute>
   },
@@ -38,6 +44,10 @@ const approuter = createBrowserRouter([
   {
     path:"/coursedetails",
     element:<CourseDetails></CourseDetails>
+  },
+  {
+    path:"/jeedetails",
+    element:<PhysicDetailPage/>
   }
 ])
 

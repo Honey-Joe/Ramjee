@@ -39,6 +39,9 @@ const Navbar = () => {
                     <li className=" text-[16px] font-bold font-[Poppins] p-2 text-center lg:p-0 hover:text-[#1176F0]">
                       <Link to={"/"}>Home</Link>
                     </li>
+                    <li className=" text-[16px] font-bold font-[Poppins] p-2 text-center lg:p-0 hover:text-[#1176F0]">
+                      <Link to={"/Quiz"}>Quiz</Link>
+                    </li>
                     <li className="text-[16px] font-bold font-[Poppins] p-2 text-center lg:p-0  hover:text-[#1176F0]">
                       <Link to={"/course"}>Course</Link>
                     </li>

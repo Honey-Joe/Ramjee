@@ -89,7 +89,6 @@ const Many = () => {
 
             </div>
         </div>
-      
     </>
   )
 }

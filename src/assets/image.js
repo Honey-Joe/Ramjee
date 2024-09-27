@@ -60,6 +60,9 @@ export const coursedhead1440 = "https://ik.imagekit.io/HoneyJoe/Skiil%20grow/Fra
 export const coursedhead745 = "https://ik.imagekit.io/HoneyJoe/Skiil%20grow/Frame%20736.png?updatedAt=1726988054307"
 export const coursedheadmob = "https://ik.imagekit.io/HoneyJoe/Skiil%20grow/Frame%20737.png?updatedAt=1726988054028"
 
+export const quizhead1440 = "https://ik.imagekit.io/jjyo3gsee/Echooling/quiz%20head%201.png?updatedAt=1727466922721"
+export const quizhead745 = "https://ik.imagekit.io/jjyo3gsee/Echooling/quiz%20head%202.png?updatedAt=1727466922610"
+export const quizheadmob = "https://ik.imagekit.io/jjyo3gsee/Echooling/quiz%20head%203.png?updatedAt=1727466922728"
 
 
 
